@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RouteRock</title>
   <meta name="description" content="RouteRock is a mobile operations app for construction hauling companies. Drivers clock in, photograph tickets, and share location while they are clocked in.">
+  <link rel="canonical" href="https://loadmax1.github.io/routerock-site/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RouteRock">
+  <meta property="og:title" content="RouteRock">
+  <meta property="og:description" content="RouteRock is a mobile operations app for construction hauling companies. Drivers clock in, photograph tickets, and share location while they are clocked in.">
+  <meta property="og:url" content="https://loadmax1.github.io/routerock-site/">
+  <meta property="og:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
+  <meta property="og:image:alt" content="RouteRock logo, a navy stone with a white RR mark and the RouteRock wordmark">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RouteRock">
+  <meta name="twitter:description" content="RouteRock is a mobile operations app for construction hauling companies. Drivers clock in, photograph tickets, and share location while they are clocked in.">
+  <meta name="twitter:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -25,96 +37,110 @@
       <nav aria-label="Primary">
         <ul class="nav-list">
           <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="how-it-works.html">How it works</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="privacy.html">Privacy</a></li>
           <li><a href="support.html">Support</a></li>
-          <li><a href="delete-account.html">Delete account</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main id="content">
-    <div class="wrap">
+    <div class="wrap wide">
       <div class="hero">
         <p class="kicker">Beta</p>
-        <h1>RouteRock</h1>
-        <p class="lede">A mobile operations app for construction hauling companies.</p>
-        <p>Drivers sign in, clock in and out, photograph tickets, and share location while they are clocked in.</p>
+        <h1>Clock times, tickets, and location for dump-truck work.</h1>
+        <p class="lede">RouteRock is a mobile operations app for construction hauling companies. Drivers clock in, photograph tickets, and share location while they are clocked in.</p>
+        <div class="hero-actions">
+          <a class="button" href="mailto:loadmaxlog@gmail.com?subject=RouteRock%20demo%20request">Request a demo</a>
+          <a class="button secondary" href="features.html">See features</a>
+        </div>
       </div>
 
-      <section class="band" aria-labelledby="about-heading">
-        <h2 id="about-heading">What it is</h2>
-        <div>
-          <p>RouteRock is for owners and dispatchers who run dump-truck work. Drivers use it on the job. Jerjuan Edwards is the founder.</p>
-          <p>The first company using it is LoadMax Logistics in Charlotte, North Carolina. LoadMax hauls in North Carolina and South Carolina.</p>
-          <p>The app is in beta and is planned so more than one company can use it. The name in the app stores is RouteRock.</p>
+      <section class="section" aria-labelledby="problem-heading">
+        <h2 id="problem-heading">What dispatch needs</h2>
+        <div class="split">
+          <div class="panel">
+            <h3>The work to track</h3>
+            <p>Owners and dispatchers need the clock time, the ticket, and where the truck was while the driver was clocked in. Drivers also work where cell service drops.</p>
+          </div>
+          <div class="panel">
+            <h3>What the driver records</h3>
+            <p>The driver clocks in, photographs the ticket, and the app tracks location only while that driver is clocked in. Clock events and GPS points wait in an offline queue and send when a connection is available. The driver's company can see that data.</p>
+          </div>
         </div>
       </section>
 
-      <section class="band" aria-labelledby="beta-heading">
-        <h2 id="beta-heading">In the beta</h2>
-        <div>
-          <p>These features are in the current beta.</p>
-          <ul class="spec">
-            <li>
-              <h3>Driver login</h3>
-              <p>Drivers sign in to an account.</p>
-            </li>
-            <li>
-              <h3>Clock in and clock out</h3>
-              <p>Times are filled in automatically. Drivers cannot change them.</p>
-            </li>
-            <li>
-              <h3>Ticket photos</h3>
-              <p>Drivers upload a photo of a ticket and can open it full screen.</p>
-            </li>
-            <li>
-              <h3>Submitted tickets</h3>
-              <p>Submitted tickets are listed in the app.</p>
-            </li>
-            <li>
-              <h3>Offline queue</h3>
-              <p>Clock events and GPS points stay in a queue on the device and send when a connection is available.</p>
-            </li>
-            <li>
-              <h3>Missing-ticket alerts</h3>
-              <p>The app includes alerts for missing tickets.</p>
-            </li>
-            <li>
-              <h3>Settings</h3>
-              <p>Settings are in the app.</p>
-            </li>
-            <li>
-              <h3>In-app feedback</h3>
-              <p>Feedback can be sent from inside the app.</p>
-            </li>
-            <li>
-              <h3>GPS while clocked in</h3>
-              <p>The app tracks location while a driver is clocked in, including background tracking.</p>
-            </li>
-          </ul>
+      <section class="section" aria-labelledby="features-heading">
+        <h2 id="features-heading">In the beta</h2>
+        <p class="intro">These features are in the current beta.</p>
+        <div class="grid cols-3">
+          <article class="panel">
+            <h3>Clock in and clock out</h3>
+            <p>Times are filled in automatically. Drivers cannot change them.</p>
+          </article>
+          <article class="panel">
+            <h3>Ticket photos</h3>
+            <p>Drivers upload a photo of a ticket and can open it full screen.</p>
+          </article>
+          <article class="panel">
+            <h3>Submitted tickets</h3>
+            <p>Submitted tickets are listed in the app.</p>
+          </article>
+          <article class="panel">
+            <h3>GPS while clocked in</h3>
+            <p>Location is tracked while a driver is clocked in, including background tracking.</p>
+          </article>
+          <article class="panel">
+            <h3>Offline queue</h3>
+            <p>Clock events and GPS points stay on the device and send when a connection is available.</p>
+          </article>
+          <article class="panel">
+            <h3>Missing-ticket alerts</h3>
+            <p>The app includes alerts for missing tickets.</p>
+          </article>
         </div>
+        <p class="intro">Drivers also sign in, use settings, and send feedback from inside the app. An owner live map, invoicing and reports, and admin screens are <a href="features.html#coming-soon">coming soon</a>.</p>
       </section>
 
-      <section class="band" aria-labelledby="soon-heading">
-        <h2 id="soon-heading">Coming soon</h2>
-        <div>
-          <p>These are coming soon. They are not in the beta.</p>
-          <ul class="soon">
-            <li><span class="tag">Coming soon</span> Owner live map</li>
-            <li><span class="tag">Coming soon</span> Invoicing and reports</li>
-            <li><span class="tag">Coming soon</span> Admin screens</li>
-          </ul>
-        </div>
+      <section class="section" aria-labelledby="steps-heading">
+        <h2 id="steps-heading">How it works</h2>
+        <ol class="steps three">
+          <li>
+            <span class="step-num">Step 1</span>
+            <h3>Driver clocks in</h3>
+            <p>The time is filled in automatically. Drivers cannot change it.</p>
+          </li>
+          <li>
+            <span class="step-num">Step 2</span>
+            <h3>Driver snaps tickets</h3>
+            <p>A photo of the ticket can be opened full screen. Submitted tickets are listed in the app.</p>
+          </li>
+          <li>
+            <span class="step-num">Step 3</span>
+            <h3>Owner sees the data</h3>
+            <p>Clock times, ticket photos, and location from while the driver was clocked in are visible to the driver's company.</p>
+          </li>
+        </ol>
+        <p class="intro"><a href="how-it-works.html">Driver and owner steps</a></p>
       </section>
 
-      <section class="band" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contact</h2>
-        <div>
-          <p><a class="button" href="mailto:loadmaxlog@gmail.com">Email loadmaxlog@gmail.com</a></p>
-          <p>For help, see <a href="support.html">Support</a>. The <a href="privacy.html">privacy policy</a> and <a href="delete-account.html">account deletion</a> steps are on this site.</p>
-        </div>
+      <section class="section" aria-labelledby="built-heading">
+        <h2 id="built-heading">Built for construction hauling</h2>
+        <p class="intro">RouteRock is for owners and dispatchers who run dump-truck work. Jerjuan Edwards is the founder. The first company using it is LoadMax Logistics in Charlotte, North Carolina. LoadMax hauls in North Carolina and South Carolina.</p>
+        <p class="intro">The app is in beta and is planned so more than one company can use it. The name in the app stores is RouteRock.</p>
       </section>
     </div>
+    <section class="cta-band" aria-labelledby="demo-heading">
+      <div class="wrap wide">
+        <h2 id="demo-heading">Request a demo</h2>
+        <p>Email loadmaxlog@gmail.com. The app is in beta.</p>
+        <a class="button" href="mailto:loadmaxlog@gmail.com?subject=RouteRock%20demo%20request">Request a demo</a>
+      </div>
+    </section>
   </main>
   <footer class="site-footer">
     <div class="wrap footer-inner">
@@ -122,6 +148,11 @@
       <nav aria-label="Footer">
         <ul class="nav-list">
           <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="how-it-works.html">How it works</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="privacy.html">Privacy</a></li>
           <li><a href="support.html">Support</a></li>
           <li><a href="delete-account.html">Delete account</a></li>
