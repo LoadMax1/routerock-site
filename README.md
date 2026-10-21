@@ -12,8 +12,9 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | `privacy.html` | Privacy policy for the mobile app. Keep this URL stable. |
 | `support.html` | How to get help, and a short FAQ |
 | `delete-account.html` | How to request account and data deletion |
+| `brand.html` | Logo files, colors, and type. Linked from the footer. |
 
-Shared navigation in the header and footer links every page. Styles live in `styles.css`.
+Shared navigation in the header and footer links the public pages. Styles live in `styles.css`. Logo files, icons, and the original artwork are in `assets/brand/`. `site.webmanifest` and `favicon.ico` are at the repository root.
 
 ## Preview locally
 
@@ -31,9 +32,19 @@ You can also open `index.html` directly in a browser. Links and the stylesheet u
 
 In the repository settings, set Pages to deploy from the `main` branch and the `/` (root) folder. `.nojekyll` is included so Pages serves the files as they are, without a Jekyll build.
 
-## Colors
+## Brand
 
-Brand colors are not final. The site uses a neutral placeholder palette and a text wordmark (there is no logo file). To change colors later, edit the variables at the top of `styles.css` (`--color-bg`, `--color-ink`, `--color-accent`, and the others in `:root`).
+Colors are CSS variables at the top of `styles.css`.
+
+| Name | Hex | Use |
+| --- | --- | --- |
+| Deep Navy | `#1F2A44` | Primary |
+| Safety Orange | `#F58220` | Buttons and highlights |
+| Steel Gray | `#6B7280` | Secondary text and lines |
+| Light Gray | `#F4F5F7` | Background |
+| White | `#FFFFFF` | Surfaces |
+
+The typeface is Montserrat, loaded from Google Fonts. The screen logo is `assets/brand/logo-horizontal.svg`. See `brand.html` for the files and notes.
 
 ## Contact
 
