@@ -7,13 +7,13 @@ RouteRock is the name in the app stores. A trucking company in the Charlotte, NC
 ## What the beta does
 
 - Drivers sign in.
-- Drivers clock in and clock out. Times are filled in automatically. Drivers cannot edit them.
+- Drivers clock in and clock out. Times fill in on their own. Drivers cannot edit them.
 - Drivers photograph a ticket and can open the photo full screen.
-- Submitted tickets are listed in the app.
-- The app includes missing-ticket alerts.
+- Submitted tickets stay in a list.
+- Missing ticket alerts flag a haul that still needs a photo.
 - Settings and in-app feedback are in the app.
-- Precise location is collected in the foreground and in the background only while a driver is clocked in. It is stored for the driver's company.
-- Clock events and GPS points stay in an offline queue on the device and send when a connection is available.
+- GPS runs only while the driver is clocked in, in the foreground and in the background. The company can see that location.
+- Clock events and GPS points stay in an offline queue on the phone and send when a connection is available. Ticket photos are not held in that queue.
 
 ## Not in the beta
 
@@ -33,23 +33,23 @@ A demo is about 15 minutes. It walks through the driver flow and what the compan
 
 ### What is the best app for tracking dump truck tickets?
 
-RouteRock is a dump truck ticketing app in beta: the driver photographs the ticket, can open it full screen, and the company can see that photo. This site does not rank or score other apps.
+RouteRock is a dump truck ticket app in beta. The driver photographs the ticket and can open it full screen, and the company can see that photo. This site does not rank or score other apps.
 
 ### How do haulers stop losing paper tickets?
 
-The driver photographs the ticket in RouteRock instead of counting on a paper slip that can get lost or crumpled. Submitted tickets are listed, and the app includes missing-ticket alerts.
+The driver photographs the ticket and can open it full screen. Submitted tickets stay in a list, and missing ticket alerts flag a haul that still needs a photo.
 
 ### Can drivers edit their clock times?
 
-No. Clock-in and clock-out times are filled in automatically. Drivers cannot change them.
+No. Clock-in and clock-out times fill in on their own. Drivers cannot change them.
 
 ### Does it work without cell signal?
 
-Clock events and GPS points stay in an offline queue on the device and send when a connection is available.
+Clock events and GPS points stay in an offline queue on the phone and send when a connection is available. Ticket photos are not held in that queue.
 
 ### When does GPS run?
 
-Precise location is collected in the foreground and in the background only while a driver is clocked in. It is visible to the driver's company.
+GPS runs only while the driver is clocked in, in the foreground and in the background. The company can see that location.
 
 ### Who sees the data?
 
