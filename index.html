@@ -19,6 +19,7 @@
   <meta name="twitter:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
   <link rel="preload" href="assets/fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/montserrat-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/screens/01-clock-in-780.webp" imagesrcset="assets/screens/01-clock-in-390.webp 390w, assets/screens/01-clock-in-780.webp 780w" imagesizes="280px">
   <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
@@ -62,6 +63,14 @@
         "GPS while clocked in",
         "Settings",
         "In-app feedback"
+      ],
+      "screenshot": [
+        "https://loadmax1.github.io/routerock-site/assets/screens/01-clock-in-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/02-clocked-in-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/03-ticket-upload-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/04-submitted-tickets-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/05-offline-queue-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/06-missing-ticket-alert-780.webp"
       ],
       "provider": {
         "@id": "https://loadmax1.github.io/routerock-site/#organization"
@@ -185,12 +194,11 @@
           </div>
         </div>
         <figure class="phone">
-        <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
-              <div class="mock-card"><strong>Clock in</strong><p>Time fills in automatically.</p><div class="mock-btn">Clock in</div></div>
-              <div class="mock-card"><strong>Ticket</strong><div class="mock-photo">Ticket photo</div></div>
-              <div class="mock-row">Clock event <em>Queued</em></div></div></div></div>
-        <figcaption>Mockup of a driver screen with a clock-in button, a ticket photo placeholder, and a queued clock event. Not a record from a job.</figcaption>
-      </figure>
+          <div class="phone-frame">
+            <img src="assets/screens/01-clock-in-780.webp" srcset="assets/screens/01-clock-in-390.webp 390w, assets/screens/01-clock-in-780.webp 780w" sizes="280px" width="390" height="845" alt="RouteRock clock-in screen, off duty on Truck 12, with a Clock In button for the trucking time clock" fetchpriority="high" decoding="async">
+          </div>
+          <figcaption>Clock-in screen in the RouteRock app. Demo data, not a job record.</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -261,11 +269,19 @@
     </section>
 
     <section class="band-navy road reveal" aria-labelledby="offline">
-      <div class="wrap">
-        <p class="kicker">Offline</p>
-        <h2 id="offline">Does it work without cell signal?</h2>
-        <p>Clock events and GPS points stay in an offline queue and send when a connection is available.</p>
-        <div class="signal" aria-hidden="true"><i></i><i></i><i></i><span class="road-dash"></span></div>
+      <div class="wrap offline-grid">
+        <div>
+          <p class="kicker">Offline</p>
+          <h2 id="offline">Does it work without cell signal?</h2>
+          <p>Clock events and GPS points stay in an offline queue and send when a connection is available.</p>
+          <div class="signal" aria-hidden="true"><i></i><i></i><i></i><span class="road-dash"></span></div>
+        </div>
+        <figure class="phone">
+          <div class="phone-frame">
+            <img src="assets/screens/05-offline-queue-780.webp" srcset="assets/screens/05-offline-queue-390.webp 390w, assets/screens/05-offline-queue-780.webp 780w" sizes="280px" width="390" height="845" alt="RouteRock offline queue with 2 clock events waiting to sync" loading="lazy" decoding="async">
+          </div>
+          <figcaption>Offline queue in the RouteRock app. Demo data, not a job record.</figcaption>
+        </figure>
       </div>
     </section>
 

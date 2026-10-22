@@ -63,6 +63,14 @@
         "Settings",
         "In-app feedback"
       ],
+      "screenshot": [
+        "https://loadmax1.github.io/routerock-site/assets/screens/01-clock-in-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/02-clocked-in-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/03-ticket-upload-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/04-submitted-tickets-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/05-offline-queue-780.webp",
+        "https://loadmax1.github.io/routerock-site/assets/screens/06-missing-ticket-alert-780.webp"
+      ],
       "provider": {
         "@id": "https://loadmax1.github.io/routerock-site/#organization"
       }
@@ -141,10 +149,10 @@
             <p>No. The driver clocks in and the time is filled in automatically. Clock out works the same way. While the driver is clocked in, the app tracks precise location in the foreground and in the background. That is the trucking time clock in the beta. The full order is on <a href="how-it-works.html">haul ticket tracking</a>.</p>
           </div>
           <figure class="phone">
-            <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
-              <div class="mock-card"><strong>Clock in</strong><p>The time is filled in. It cannot be edited.</p><div class="mock-btn">Clock in</div></div>
-              <div class="mock-card"><strong>Clock out</strong><p>The clock-out time is filled in the same way.</p><div class="mock-btn">Clock out</div></div></div></div></div>
-            <figcaption>Mockup of clock-in and clock-out. Sample screen, not a record from a job.</figcaption>
+            <div class="phone-frame">
+              <img src="assets/screens/02-clocked-in-780.webp" srcset="assets/screens/02-clocked-in-390.webp 390w, assets/screens/02-clocked-in-780.webp 780w" sizes="280px" width="390" height="845" alt="RouteRock trucking time clock after clock-in, with the shift timer running on Truck 12" loading="lazy" decoding="async">
+            </div>
+            <figcaption>Clocked-in screen with the shift timer. Demo data, not a job record.</figcaption>
           </figure>
         </article>
       </div>
@@ -157,11 +165,42 @@
             <p>A driver photographs the ticket and can open that photo full screen. Submitted tickets are listed in the app, and missing-ticket alerts are included. The company can see the photo.</p>
           </div>
           <figure class="phone">
-            <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
-              <div class="mock-card"><strong>Ticket photo</strong><div class="mock-photo">Photo placeholder</div><div class="mock-btn">Open full screen</div></div>
-              <div class="mock-row">Submitted tickets <em>List</em></div>
-              <div class="mock-row">Missing ticket <em>Alert</em></div></div></div></div>
-            <figcaption>Mockup of a ticket photo placeholder, a submitted-ticket list, and a missing-ticket alert. Not a record from a job.</figcaption>
+            <div class="phone-frame">
+              <img src="assets/screens/03-ticket-upload-780.webp" srcset="assets/screens/03-ticket-upload-390.webp 390w, assets/screens/03-ticket-upload-780.webp 780w" sizes="280px" width="390" height="845" alt="RouteRock dump truck ticket photo upload with a Submit Ticket button" loading="lazy" decoding="async">
+            </div>
+            <figcaption>New ticket with a photo. Demo data, not a job record.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section class="section band-white reveal">
+      <div class="wrap">
+        <article class="pair">
+          <div class="pair-copy">
+            <h2>Where are submitted tickets listed?</h2>
+            <p>Submitted tickets are listed in the app, so you are not hunting a glovebox.</p>
+          </div>
+          <figure class="phone">
+            <div class="phone-frame">
+              <img src="assets/screens/04-submitted-tickets-780.webp" srcset="assets/screens/04-submitted-tickets-390.webp 390w, assets/screens/04-submitted-tickets-780.webp 780w" sizes="280px" width="390" height="845" alt="RouteRock submitted haul tickets list" loading="lazy" decoding="async">
+            </div>
+            <figcaption>Submitted tickets list. Demo data, not a job record.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section class="section band-gray reveal">
+      <div class="wrap">
+        <article class="pair flip">
+          <div class="pair-copy">
+            <h2>When does a missing ticket get an alert?</h2>
+            <p>The app includes alerts for missing tickets, the ones that slow down getting paid.</p>
+          </div>
+          <figure class="phone">
+            <div class="phone-frame">
+              <img src="assets/screens/06-missing-ticket-alert-780.webp" srcset="assets/screens/06-missing-ticket-alert-390.webp 390w, assets/screens/06-missing-ticket-alert-780.webp 780w" sizes="280px" width="390" height="845" alt="RouteRock missing-ticket alert showing a ticket 95 minutes overdue" loading="lazy" decoding="async">
+            </div>
+            <figcaption>Missing-ticket alert. Demo data, not a job record.</figcaption>
           </figure>
         </article>
       </div>
@@ -174,11 +213,10 @@
             <p>Clock events and GPS points stay in an offline queue on the device. They send when a connection is available. Location is still collected only while the driver is clocked in.</p>
           </div>
           <figure class="phone">
-            <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
-              <div class="mock-card"><strong>Offline queue</strong><p>Waiting on the device until a connection is available.</p></div>
-              <div class="mock-row">Clock event <em>Queued</em></div>
-              <div class="mock-row">GPS point <em>Queued</em></div></div></div></div>
-            <figcaption>Mockup of an offline queue holding a clock event and a GPS point. Not a record from a job.</figcaption>
+            <div class="phone-frame">
+              <img src="assets/screens/05-offline-queue-780.webp" srcset="assets/screens/05-offline-queue-390.webp 390w, assets/screens/05-offline-queue-780.webp 780w" sizes="280px" width="390" height="845" alt="RouteRock offline queue with 2 clock events waiting to sync" loading="lazy" decoding="async">
+            </div>
+            <figcaption>Offline queue with clock events waiting to sync. Demo data, not a job record.</figcaption>
           </figure>
         </article>
       </div>
