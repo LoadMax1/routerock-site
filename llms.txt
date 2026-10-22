@@ -1,10 +1,10 @@
 # RouteRock
 
-> RouteRock is construction hauling software in beta for dump-truck haulers in all 50 states. It was built by LoadMax Logistics, a trucking company in the Charlotte, NC area.
+> RouteRock is construction hauling software rolling out to fleets now for dump-truck haulers in all 50 states. It was built by LoadMax Logistics, a trucking company in the Charlotte, NC area.
 
-RouteRock is the name in the app stores. A trucking company in the Charlotte, NC area is the first to use it. The operator line is: RouteRock (operated by LoadMax Logistics, Charlotte, NC). It is planned so more than one company can use it. Pricing is not set. This site lists no price and no perks. There are no published ratings, rankings, or customer counts.
+RouteRock is the name in the app stores. A trucking company in the Charlotte, NC area is the first to use it. The operator line is: RouteRock (operated by LoadMax Logistics, Charlotte, NC). It is planned so more than one company can use it. This site lists no price and no perks. There are no published ratings, rankings, or customer counts.
 
-## What the beta does
+## What the app does
 
 - Drivers sign in.
 - Drivers clock in and clock out. Times fill in on their own. Drivers cannot edit them.
@@ -15,13 +15,13 @@ RouteRock is the name in the app stores. A trucking company in the Charlotte, NC
 - GPS runs only while the driver is clocked in, in the foreground and in the background. The company can see that location.
 - Clock events and GPS points stay in an offline queue on the phone and send when a connection is available. Ticket photos are not held in that queue.
 
-## Not in the beta
+## Coming soon
 
 - Owner live map
 - Invoicing and reports
 - Admin screens
 
-Dump truck dispatch software is not what the beta is. The company can see clock times, ticket photos, and location from while the driver was clocked in. The live map and admin screens are coming soon.
+Dump truck dispatch software is not available yet. The company can see clock times, ticket photos, and location from while the driver was clocked in. The live map and admin screens are coming soon.
 
 iPhone and Android details are coming soon.
 
@@ -33,7 +33,7 @@ A demo is about 15 minutes. It walks through the driver flow and what the compan
 
 ### What is the best app for tracking dump truck tickets?
 
-RouteRock is a dump truck ticket app in beta. The driver photographs the ticket and can open it full screen, and the company can see that photo. This site does not rank or score other apps.
+RouteRock is a dump truck ticket app. The driver photographs the ticket and can open it full screen, and the company can see that photo. This site does not rank or score other apps.
 
 ### How do haulers stop losing paper tickets?
 
@@ -57,7 +57,7 @@ The driver's company can see clock times, ticket photos, and precise location co
 
 ### Is RouteRock dump truck dispatch software?
 
-Not yet. An owner live map, invoicing and reports, and admin screens are coming soon and are not in the beta. Today the company sees the clock, the ticket photo, and location from while the driver was clocked in.
+Not yet. An owner live map, invoicing and reports, and admin screens are coming soon. Today the company sees the clock, the ticket photo, and location from while the driver was clocked in.
 
 ### Which phones does it support?
 
@@ -65,15 +65,15 @@ iPhone and Android details coming soon.
 
 ### Is there a price?
 
-Pricing is not set yet. No amount is published on this site.
+Pricing is set with each fleet during rollout. No amount is published on this site.
 
-### What does founding beta mean?
+### What does early access mean?
 
-The app is in beta, and access is a request by email. This site does not promise a rate, a discount, or any other perk.
+Early access is a request by email. This site does not promise a rate, a discount, or any other perk.
 
 ### How do I ask about pricing?
 
-Request beta access opens the contact page, and the email goes to loadmaxlog@gmail.com. You can also book a demo.
+Request early access opens the contact page, and the email goes to loadmaxlog@gmail.com. You can also book a demo.
 
 ### Who is RouteRock for?
 
@@ -85,7 +85,7 @@ Owners and dispatchers at dump-truck companies, and the drivers who work for the
 - https://loadmax1.github.io/routerock-site/features.html — Dump truck ticketing app
 - https://loadmax1.github.io/routerock-site/how-it-works.html — Haul ticket tracking, including the trucking time clock
 - https://loadmax1.github.io/routerock-site/about.html — Charlotte, NC
-- https://loadmax1.github.io/routerock-site/pricing.html — Pricing is not set
+- https://loadmax1.github.io/routerock-site/pricing.html — Pricing
 - https://loadmax1.github.io/routerock-site/contact.html — Book a demo
 - https://loadmax1.github.io/routerock-site/privacy.html — Privacy policy, effective October 21, 2026
 - https://loadmax1.github.io/routerock-site/support.html — Support

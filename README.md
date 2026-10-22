@@ -9,9 +9,9 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | File | Purpose |
 | --- | --- |
 | `index.html` | Construction hauling software: the pain, who it is for, and questions |
-| `features.html` | Dump truck ticketing app, plus an honest note that dispatch is not in the beta |
+| `features.html` | Dump truck ticketing app, plus an honest note that dispatch is not available yet |
 | `how-it-works.html` | Haul ticket tracking and the trucking time clock, including offline |
-| `pricing.html` | Founding beta. Pricing is not set yet. No prices or perks |
+| `pricing.html` | Pricing is set with each fleet during rollout. No prices or perks |
 | `about.html` | Charlotte, NC, LoadMax Logistics, and the trust line |
 | `charlotte-nc.html` | Dump truck ticketing app Charlotte NC |
 | `articles/index.html` | Dump truck hauling articles, plus four posts |
