@@ -75,7 +75,7 @@
         "Trucks in fleet: " + (values["demo-trucks"] || "(not given)"),
         "Message: " + (values["demo-message"] || "(not given)")
       ].join("\n");
-      var href = "mailto:loadmaxlog@gmail.com?subject=" + encodeURIComponent("RouteRock demo request") + "&body=" + encodeURIComponent(body);
+      var href = "mailto:demo@routerockhub.com?subject=" + encodeURIComponent("RouteRock demo request") + "&body=" + encodeURIComponent(body);
       if (typeof window.routeRockOpenMail === "function") window.routeRockOpenMail(href);
       else window.location.href = href;
     });

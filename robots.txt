@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://loadmax1.github.io/routerock-site/sitemap.xml
+Sitemap: https://routerockhub.com/sitemap.xml

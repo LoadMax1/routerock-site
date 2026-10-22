@@ -27,7 +27,7 @@ iPhone and Android details are coming soon.
 
 ## Demo
 
-A demo is about 15 minutes. It walks through the driver flow and what the company can see today. The contact page form opens an email to loadmaxlog@gmail.com with the subject "RouteRock demo request", and a plain mailto remains.
+A demo is about 15 minutes. It walks through the driver flow and what the company can see today. The contact page form opens an email to demo@routerockhub.com with the subject "RouteRock demo request", and a plain mailto remains.
 
 ## Questions and answers
 
@@ -73,7 +73,7 @@ Early access is a request by email. This site does not promise a rate, a discoun
 
 ### How do I ask about pricing?
 
-Request early access opens the contact page, and the email goes to loadmaxlog@gmail.com. You can also book a demo.
+Request early access opens the contact page, and the email goes to demo@routerockhub.com. You can also book a demo.
 
 ### Who is RouteRock for?
 
@@ -81,23 +81,23 @@ Owners and dispatchers at dump-truck companies, and the drivers who work for the
 
 ## Pages
 
-- https://loadmax1.github.io/routerock-site/ — Construction hauling software
-- https://loadmax1.github.io/routerock-site/features.html — Dump truck ticketing app
-- https://loadmax1.github.io/routerock-site/how-it-works.html — Haul ticket tracking, including the trucking time clock
-- https://loadmax1.github.io/routerock-site/about.html — Charlotte, NC
-- https://loadmax1.github.io/routerock-site/pricing.html — Pricing
-- https://loadmax1.github.io/routerock-site/contact.html — Book a demo
-- https://loadmax1.github.io/routerock-site/privacy.html — Privacy policy, effective October 21, 2026
-- https://loadmax1.github.io/routerock-site/support.html — Support
-- https://loadmax1.github.io/routerock-site/delete-account.html — Delete an account
-- https://loadmax1.github.io/routerock-site/brand.html — Logo, colors, and type
-- https://loadmax1.github.io/routerock-site/articles/ — Dump truck hauling articles
-- https://loadmax1.github.io/routerock-site/articles/how-to-stop-losing-dump-truck-tickets.html — How to stop losing dump truck tickets
-- https://loadmax1.github.io/routerock-site/articles/paper-tickets-vs-digital-ticketing.html — Paper tickets vs digital ticketing for dump trucks
-- https://loadmax1.github.io/routerock-site/articles/how-to-settle-driver-hour-disputes.html — How to settle driver hour disputes
-- https://loadmax1.github.io/routerock-site/articles/tickets-when-the-job-site-has-no-signal.html — Running tickets when the job site has no signal
-- https://loadmax1.github.io/routerock-site/charlotte-nc.html — Dump truck ticketing app Charlotte NC
+- https://routerockhub.com/ — Construction hauling software
+- https://routerockhub.com/features.html — Dump truck ticketing app
+- https://routerockhub.com/how-it-works.html — Haul ticket tracking, including the trucking time clock
+- https://routerockhub.com/about.html — Charlotte, NC
+- https://routerockhub.com/pricing.html — Pricing
+- https://routerockhub.com/contact.html — Book a demo
+- https://routerockhub.com/privacy.html — Privacy policy, effective October 21, 2026
+- https://routerockhub.com/support.html — Support
+- https://routerockhub.com/delete-account.html — Delete an account
+- https://routerockhub.com/brand.html — Logo, colors, and type
+- https://routerockhub.com/articles/ — Dump truck hauling articles
+- https://routerockhub.com/articles/how-to-stop-losing-dump-truck-tickets.html — How to stop losing dump truck tickets
+- https://routerockhub.com/articles/paper-tickets-vs-digital-ticketing.html — Paper tickets vs digital ticketing for dump trucks
+- https://routerockhub.com/articles/how-to-settle-driver-hour-disputes.html — How to settle driver hour disputes
+- https://routerockhub.com/articles/tickets-when-the-job-site-has-no-signal.html — Running tickets when the job site has no signal
+- https://routerockhub.com/charlotte-nc.html — Dump truck ticketing app Charlotte NC
 
 ## Contact
 
-loadmaxlog@gmail.com
+support@routerockhub.com
