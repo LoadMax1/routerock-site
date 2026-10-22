@@ -4,22 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Construction hauling software | RouteRock</title>
-  <meta name="description" content="Paper tickets get lost, hours get argued, and trucks go quiet. RouteRock records the clock-in, the ticket photo, and location while clocked in. Built in Charlotte, NC.">
+  <meta name="description" content="Lost paper tickets and argued hours. RouteRock records the clock-in, the ticket photo, and location while clocked in. Built in Charlotte, NC.">
   <link rel="canonical" href="https://loadmax1.github.io/routerock-site/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="RouteRock">
   <meta property="og:title" content="Construction hauling software | RouteRock">
-  <meta property="og:description" content="Paper tickets get lost, hours get argued, and trucks go quiet. RouteRock records the clock-in, the ticket photo, and location while clocked in. Built in Charlotte, NC.">
+  <meta property="og:description" content="Lost paper tickets and argued hours. RouteRock records the clock-in, the ticket photo, and location while clocked in. Built in Charlotte, NC.">
   <meta property="og:url" content="https://loadmax1.github.io/routerock-site/">
   <meta property="og:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
   <meta property="og:image:alt" content="RouteRock logo, a navy stone with a white RR mark and the RouteRock wordmark">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Construction hauling software | RouteRock">
-  <meta name="twitter:description" content="Paper tickets get lost, hours get argued, and trucks go quiet. RouteRock records the clock-in, the ticket photo, and location while clocked in. Built in Charlotte, NC.">
+  <meta name="twitter:description" content="Lost paper tickets and argued hours. RouteRock records the clock-in, the ticket photo, and location while clocked in. Built in Charlotte, NC.">
   <meta name="twitter:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/montserrat-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
@@ -39,10 +38,6 @@
       "email": "loadmaxlog@gmail.com",
       "logo": "https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg",
       "description": "RouteRock is construction hauling software in beta, built inside LoadMax Logistics, a dump-truck company in Charlotte, North Carolina.",
-      "founder": {
-        "@type": "Person",
-        "name": "Jerjuan Edwards"
-      },
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Charlotte",
@@ -181,12 +176,12 @@
     <section class="hero road">
       <div class="wrap hero-grid">
         <div>
-          <p class="kicker">Beta · Charlotte, NC</p>
+          <p class="kicker">Beta</p>
           <h1>Lost tickets and argued hours don't pay the truck.</h1>
-          <p class="lede">Paper tickets get lost or crumpled, you chase drivers for hours, and you guess where the truck went. Missing tickets slow down getting paid. RouteRock records the clock-in, the ticket photo, and location while the driver is clocked in — built inside LoadMax Logistics in Charlotte, NC.</p>
+          <p class="lede">Paper tickets get lost or crumpled, hours get argued, and the truck goes quiet. Missing tickets slow down getting paid.</p>
           <div class="hero-actions">
             <a class="button button-lg" href="contact.html#demo">Book a demo</a>
-            <a class="quiet" href="how-it-works.html">See how it works</a>
+            <a class="quiet" href="how-it-works.html">See how a haul gets on record</a>
           </div>
         </div>
         <figure class="phone">
@@ -199,64 +194,91 @@
       </div>
     </section>
 
-    <section class="section reveal" aria-labelledby="built-for">
+    <section class="section band-white reveal" aria-labelledby="fix">
       <div class="wrap">
-        <h2 id="built-for">Built for the people on the job</h2>
-        <p class="intro">Drivers, owners, and dispatchers at a dump-truck company. What follows is in the beta, except the two items marked coming soon. See the <a href="features.html">dump truck ticketing app</a> or the <a href="how-it-works.html">haul ticket tracking</a> steps.</p>
+        <p class="kicker">The fix</p>
+        <h2 id="fix">What does RouteRock keep on record?</h2>
+        <p class="intro">The clock-in, the ticket photo, and location while the driver is clocked in. Built inside LoadMax Logistics in Charlotte, NC.</p>
+        <p class="intro"><a href="features.html">See the dump truck ticketing app</a>.</p>
+      </div>
+    </section>
+
+    <section class="section band-gray reveal" aria-labelledby="who">
+      <div class="wrap">
+        <p class="kicker">Who</p>
+        <h2 id="who">Who uses it on a haul?</h2>
+        <p class="intro">Drivers, owners, and dispatchers. Two items are marked coming soon and are not in the beta.</p>
         <div class="cards three">
           <article class="card">
             <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5.5 19.2c1.2-3 3.4-4.5 6.5-4.5s5.3 1.5 6.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
             <h3>Drivers</h3>
             <ul>
-              <li>Sign in, then clock in and clock out. Times fill in on their own. Drivers cannot edit them.</li>
-              <li>Photograph the ticket, open it full screen, and see what was submitted.</li>
-              <li>Missing-ticket alerts, settings, and in-app feedback are in the app.</li>
-              <li>Clock events and GPS points wait in an offline queue when the signal drops.</li>
+              <li>Clock in and out. Times fill in. Drivers cannot edit them.</li>
+              <li>Photograph the ticket and open it full screen.</li>
+              <li>An offline queue holds clock events and GPS points.</li>
             </ul>
           </article>
           <article class="card">
             <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V20H4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 20v-6h4v6" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
             <h3>Owners</h3>
             <ul>
-              <li>The company can see clock times, ticket photos, and precise location from while the driver was clocked in.</li>
-              <li><span class="tag">Coming soon</span> Owner live map. It is not in the beta.</li>
+              <li>The company sees clock times, ticket photos, and location while clocked in.</li>
+              <li><span class="tag">Coming soon</span> Owner live map. Not in the beta.</li>
             </ul>
           </article>
           <article class="card">
             <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 20h8M9 9h6M9 13h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
             <h3>Dispatchers</h3>
             <ul>
-              <li>The same clock times, ticket photos, and location are visible to the driver's company.</li>
-              <li><span class="tag">Coming soon</span> Admin screens. They are not in the beta.</li>
+              <li>The company sees the same clock, photos, and location.</li>
+              <li><span class="tag">Coming soon</span> Admin screens. Not in the beta.</li>
             </ul>
           </article>
         </div>
-        <aside class="mid-cta reveal" aria-labelledby="demo-mid">
-        <h2 id="demo-mid">Book a demo</h2>
-        <p>About 15 minutes. We walk the driver flow, then what the owner can see today.</p>
-        <a class="button" href="contact.html#demo">Book a demo</a>
-      </aside>
+      </div>
+    </section>
+
+    <section class="section band-white reveal" aria-labelledby="how">
+      <div class="wrap">
+        <p class="kicker">How</p>
+        <h2 id="how">How does a haul get on record?</h2>
+        <ol class="steps three">
+          <li>
+            <h3>Clock in</h3>
+            <p>The time fills in. Drivers cannot edit it.</p>
+          </li>
+          <li>
+            <h3>Photograph the ticket</h3>
+            <p>The photo can be opened full screen, and submitted tickets are listed.</p>
+          </li>
+          <li>
+            <h3>The company sees it</h3>
+            <p>Clock times, the ticket photo, and location while clocked in.</p>
+          </li>
+        </ol>
+        <p class="intro"><a href="how-it-works.html">Read the haul ticket tracking steps</a>.</p>
       </div>
     </section>
 
     <section class="band-navy road reveal" aria-labelledby="offline">
       <div class="wrap">
-        <h2 id="offline">No signal? No problem.</h2>
-        <p>Pits and haul roads drop calls. Clock events and GPS points stay in an offline queue on the device and send when a connection is available.</p>
+        <p class="kicker">Offline</p>
+        <h2 id="offline">Does it work without cell signal?</h2>
+        <p>Clock events and GPS points stay in an offline queue and send when a connection is available.</p>
         <div class="signal" aria-hidden="true"><i></i><i></i><i></i><span class="road-dash"></span></div>
       </div>
     </section>
 
-    <section class="section reveal" aria-labelledby="trust">
+    <section class="section band-gray reveal" aria-labelledby="trust">
       <div class="wrap">
         <div class="trust">
           <h2 id="trust">Built inside a working hauling company — LoadMax Logistics, Charlotte, NC (hauls NC &amp; SC).</h2>
-          <p>Jerjuan Edwards is the founder. RouteRock is in beta and is planned so more than one company can use it. The name in the app stores is RouteRock. Read the <a href="about.html">Charlotte story</a> or <a href="pricing.html">pricing</a>, which is not set yet.</p>
+          <p>RouteRock is in beta and is planned so more than one company can use it. The name in the app stores is RouteRock. Read the <a href="about.html">Charlotte, NC story</a> or <a href="pricing.html">RouteRock pricing</a>.</p>
         </div>
       </div>
     </section>
 
-    <section class="section reveal" id="questions" aria-labelledby="faq-heading">
+    <section class="section band-white reveal" id="questions" aria-labelledby="faq-heading">
       <div class="wrap">
         <h2 id="faq-heading">Questions haulers ask</h2>
         <div class="faq">
