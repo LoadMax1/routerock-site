@@ -17,9 +17,8 @@
   <meta name="twitter:title" content="Book a RouteRock demo">
   <meta name="twitter:description" content="Book a RouteRock demo. About 15 minutes on the driver flow and what the owner can see. The request emails loadmaxlog@gmail.com.">
   <meta name="twitter:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/montserrat-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
@@ -39,10 +38,6 @@
       "email": "loadmaxlog@gmail.com",
       "logo": "https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg",
       "description": "RouteRock is construction hauling software in beta, built inside LoadMax Logistics, a dump-truck company in Charlotte, North Carolina.",
-      "founder": {
-        "@type": "Person",
-        "name": "Jerjuan Edwards"
-      },
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Charlotte",
@@ -114,20 +109,22 @@
     </div>
   </header>
   <main id="content">
-    <div class="wrap">
-      <div class="page-intro" id="demo">
+    <section class="section band-white" id="demo">
+      <div class="wrap page-intro">
         <p class="kicker">About 15 minutes</p>
         <h1>Book a demo</h1>
-        <p class="lede">We will walk the driver flow and what the owner can see. No form service sits on this page. The button opens an email to loadmaxlog@gmail.com with the subject and a short note filled in.</p>
+        <p class="lede">We walk the driver flow and what the owner can see today. The button opens an email. There is no form.</p>
         <p><a class="button button-lg" href="mailto:loadmaxlog@gmail.com?subject=RouteRock%20demo%20request&amp;body=I%27d%20like%20to%20book%20a%20RouteRock%20demo.%0A%0AName%3A%0ACompany%3A%0ABest%20way%20to%20reach%20me%3A%0A">Book a demo</a></p>
       </div>
-      <section class="section reveal" aria-labelledby="see-heading">
-        <h2 id="see-heading">What you'll see</h2>
+    </section>
+    <section class="section band-gray reveal" aria-labelledby="see-heading">
+      <div class="wrap">
+        <h2 id="see-heading">What does the demo cover?</h2>
         <p class="intro">Plan on about 15 minutes.</p>
         <div class="cards three">
           <article class="card">
             <h3>Driver flow</h3>
-            <p>Sign in, clock in and out with times the driver cannot edit, a ticket photo and full-screen view, the submitted list, missing-ticket alerts, and the offline queue. GPS runs only while the driver is clocked in. The same path is on <a href="how-it-works.html">How it works</a>.</p>
+            <p>Sign in, clock in and out with times the driver cannot edit, a ticket photo and full-screen view, the submitted list, missing-ticket alerts, and the offline queue. GPS runs only while the driver is clocked in. The same path is on <a href="how-it-works.html">how a haul gets on record</a>.</p>
           </article>
           <article class="card">
             <h3>Owner flow</h3>
@@ -135,21 +132,18 @@
           </article>
           <article class="card">
             <h3>Not in the beta</h3>
-            <p>The owner live map, invoicing and reports, and admin screens are coming soon. We will not pretend they are in the demo. Feature notes are on the <a href="features.html">ticketing page</a>.</p>
+            <p>The owner live map, invoicing and reports, and admin screens are coming soon. We will not pretend they are in the demo. Notes are on the <a href="features.html">dump truck ticketing app</a> page.</p>
           </article>
         </div>
-      </section>
-      <aside class="mid-cta reveal" aria-labelledby="demo-mid-label">
-        <h2 id="demo-mid-label">Book a demo</h2>
-        <p>Send the note. We read loadmaxlog@gmail.com.</p>
-        <a class="button" href="mailto:loadmaxlog@gmail.com?subject=RouteRock%20demo%20request&amp;body=I%27d%20like%20to%20book%20a%20RouteRock%20demo.%0A%0AName%3A%0ACompany%3A%0ABest%20way%20to%20reach%20me%3A%0A">Book a demo</a>
-      </aside>
-      <section class="section" id="beta" aria-labelledby="beta-heading">
-        <h2 id="beta-heading">Request beta access</h2>
-        <p class="intro">Pricing is not set yet. Ask to join the beta with the same address. For help with an account, use <a href="support.html">Support</a>. Account deletion is on <a href="delete-account.html">Delete account</a>.</p>
+      </div>
+    </section>
+    <section class="section band-white" id="beta" aria-labelledby="beta-heading">
+      <div class="wrap">
+        <h2 id="beta-heading">How do I request beta access?</h2>
+        <p class="intro">Pricing is not set yet. See <a href="pricing.html">RouteRock pricing</a>, then ask to join the beta with the same address. For help with an account, use <a href="support.html">Support</a>. Account deletion is on <a href="delete-account.html">Delete account</a>.</p>
         <p><a class="button" href="mailto:loadmaxlog@gmail.com?subject=Join%20the%20RouteRock%20beta&amp;body=I%20would%20like%20to%20join%20the%20RouteRock%20beta%20and%20ask%20about%20pricing.%0A%0AName%3A%0ACompany%3A%0ABest%20way%20to%20reach%20me%3A%0A">Request beta access</a></p>
-      </section>
-    </div>
+      </div>
+    </section>
   </main>
   <section class="cta-band road" aria-labelledby="demo-close">
     <div class="wrap">

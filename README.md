@@ -12,7 +12,8 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | `features.html` | Dump truck ticketing app, plus an honest note that dispatch is not in the beta |
 | `how-it-works.html` | Haul ticket tracking and the trucking time clock, including offline |
 | `pricing.html` | Founding beta. Pricing is not set yet. No prices or perks |
-| `about.html` | Charlotte, NC. Founder, LoadMax Logistics, and the trust line |
+| `about.html` | Charlotte, NC, LoadMax Logistics, and the trust line |
+| `404.html` | Missing-page message. Not listed in the sitemap |
 | `contact.html` | Demo page. About 15 minutes. Mailto request, no form |
 | `privacy.html` | Privacy policy for the mobile app. Keep this URL stable. |
 | `support.html` | How to get help, and a short FAQ |
@@ -49,7 +50,7 @@ Colors are CSS variables at the top of `styles.css`.
 | Light Gray | `#F4F5F7` | Background |
 | White | `#FFFFFF` | Surfaces |
 
-The typeface is Montserrat, loaded from Google Fonts. The screen logo is `assets/brand/logo-horizontal.svg`. See `brand.html` for the files and notes.
+The typeface is Montserrat, self-hosted as latin WOFF2 files in `assets/fonts/` with `font-display: swap`. The screen logo is `assets/brand/logo-horizontal.svg`. See `brand.html` for the files and notes.
 
 ## Contact
 

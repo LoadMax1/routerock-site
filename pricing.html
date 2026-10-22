@@ -17,9 +17,8 @@
   <meta name="twitter:title" content="RouteRock pricing">
   <meta name="twitter:description" content="RouteRock pricing is not set yet. The founding beta has no published price and no promised perks. Ask by email.">
   <meta name="twitter:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/montserrat-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
@@ -39,10 +38,6 @@
       "email": "loadmaxlog@gmail.com",
       "logo": "https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg",
       "description": "RouteRock is construction hauling software in beta, built inside LoadMax Logistics, a dump-truck company in Charlotte, North Carolina.",
-      "founder": {
-        "@type": "Person",
-        "name": "Jerjuan Edwards"
-      },
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Charlotte",
@@ -144,13 +139,16 @@
     </div>
   </header>
   <main id="content">
-    <div class="wrap">
-      <div class="page-intro">
+    <section class="section band-white">
+      <div class="wrap page-intro">
         <p class="kicker">Beta</p>
         <h1>Pricing</h1>
         <p class="lede">Pricing is not set yet. There is no rate on this page.</p>
         <p><a class="button button-lg" href="contact.html#demo">Book a demo</a></p>
       </div>
+    </section>
+    <section class="section band-gray">
+      <div class="wrap">
       <div class="pricing-layout">
         <article class="price-card reveal">
           <p class="kicker">Beta</p>
@@ -160,7 +158,7 @@
           <a class="button" href="contact.html#beta">Request beta access</a>
         </article>
         <div class="reveal">
-          <h2>Questions about pricing</h2>
+          <h2>What should you know about pricing?</h2>
           <div class="faq">
         <details>
           <summary>Is there a price?</summary>
@@ -172,17 +170,13 @@
         </details>
         <details>
           <summary>How do I ask about pricing?</summary>
-          <p>Request beta access opens the contact page, and the email goes to loadmaxlog@gmail.com. You can also book a demo.</p>
+          <p><a href="contact.html#beta">Request beta access</a> opens the contact page, and the email goes to <a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a>. You can also <a href="contact.html#demo">book a demo</a>.</p>
         </details>
       </div>
         </div>
       </div>
-      <aside class="mid-cta reveal" aria-labelledby="demo-mid">
-        <h2 id="demo-mid">Book a demo</h2>
-        <p>Bring the questions about the beta. Pricing is a conversation, not a rate card.</p>
-        <a class="button" href="contact.html#demo">Book a demo</a>
-      </aside>
-    </div>
+      </div>
+    </section>
   </main>
   <section class="cta-band road" aria-labelledby="demo-close">
     <div class="wrap">

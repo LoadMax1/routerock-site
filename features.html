@@ -17,9 +17,8 @@
   <meta name="twitter:title" content="Dump truck ticketing app | RouteRock">
   <meta name="twitter:description" content="A dump truck ticketing app for photos instead of crumpled paper. Drivers snap the ticket, open it full screen, and the company can see it. In beta.">
   <meta name="twitter:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/montserrat-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
@@ -39,10 +38,6 @@
       "email": "loadmaxlog@gmail.com",
       "logo": "https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg",
       "description": "RouteRock is construction hauling software in beta, built inside LoadMax Logistics, a dump-truck company in Charlotte, North Carolina.",
-      "founder": {
-        "@type": "Person",
-        "name": "Jerjuan Edwards"
-      },
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Charlotte",
@@ -114,81 +109,93 @@
     </div>
   </header>
   <main id="content">
-    <div class="wrap">
-      <div class="page-intro">
+    <section class="section band-white">
+      <div class="wrap page-intro">
         <p class="kicker">Beta</p>
         <h1>A dump truck ticketing app for the slip that never makes it back.</h1>
-        <p class="lede">The paper ticket gets crumpled in the cupholder or never leaves the truck. RouteRock keeps a photo instead, plus the clock time the driver cannot edit. These are the beta features. The <a href="how-it-works.html">haul ticket tracking</a> steps show the order.</p>
+        <p class="lede">The paper ticket gets crumpled or never leaves the truck. RouteRock keeps a photo, plus a clock time the driver cannot edit.</p>
+        <p class="intro"><a href="how-it-works.html">See how haul ticket tracking works</a>.</p>
         <p><a class="button button-lg" href="contact.html#demo">Book a demo</a></p>
       </div>
-      <div class="cards icons reveal">
-        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 8v4.5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><h2>Clock times stay put</h2><p>Times are filled in automatically. Drivers cannot change them.</p></article>
-        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14v4a2 2 0 0 0 0 4v4H5v-4a2 2 0 0 0 0-4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="1.5 2"/></svg></span><h2>The ticket is a photo</h2><p>Drivers upload a photo of a ticket and can open it full screen.</p></article>
-        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h11M8 12h11M8 17h11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="4.5" cy="7" r="1" fill="currentColor"/><circle cx="4.5" cy="12" r="1" fill="currentColor"/><circle cx="4.5" cy="17" r="1" fill="currentColor"/></svg></span><h2>Submitted tickets, listed</h2><p>Submitted tickets are listed in the app, so you are not hunting a glovebox.</p></article>
-        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s6-5.2 6-10a6 6 0 1 0-12 0c0 4.8 6 10 6 10Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="11" r="2" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><h2>Location while clocked in</h2><p>Precise location runs in the foreground and in the background only while the driver is clocked in. The company can see it.</p></article>
-        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 16h9a3.5 3.5 0 0 0 .4-7 4.5 4.5 0 0 0-8.6-1.2A3.2 3.2 0 0 0 7 16Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 19h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><h2>The queue holds the gap</h2><p>Clock events and GPS points stay on the device and send when a connection is available.</p></article>
-        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.5 20 19H4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 10v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.2" r="0.8" fill="currentColor"/></svg></span><h2>Missing tickets get an alert</h2><p>The app includes alerts for missing tickets, the ones that slow down getting paid.</p></article>
-      </div>
-      <p class="intro">Drivers also sign in, use settings, and send feedback from inside the app.</p>
-      <aside class="mid-cta reveal" aria-labelledby="demo-mid">
-        <h2 id="demo-mid">Book a demo</h2>
-        <p>We'll open the ticket photo, the clock, and the queue on a call of about 15 minutes.</p>
-        <a class="button" href="contact.html#demo">Book a demo</a>
-      </aside>
-
-      <article class="pair reveal">
-        <div class="pair-copy">
-          <h2>Can drivers edit their clock times?</h2>
-          <p>No. The driver clocks in and the time is filled in automatically. Clock out works the same way. While the driver is clocked in, the app tracks precise location in the foreground and in the background. That is the trucking time clock in the beta. The full order is on <a href="how-it-works.html">How it works</a>.</p>
+    </section>
+    <section class="section band-gray reveal">
+      <div class="wrap">
+        <p class="kicker">In the beta</p>
+        <h2>What is in the dump truck ticketing app?</h2>
+        <div class="cards icons">
+          <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 8v4.5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><h3>Clock times stay put</h3><p>Times are filled in automatically. Drivers cannot change them.</p></article>
+          <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14v4a2 2 0 0 0 0 4v4H5v-4a2 2 0 0 0 0-4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="1.5 2"/></svg></span><h3>The ticket is a photo</h3><p>Drivers upload a photo of a ticket and can open it full screen.</p></article>
+          <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h11M8 12h11M8 17h11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="4.5" cy="7" r="1" fill="currentColor"/><circle cx="4.5" cy="12" r="1" fill="currentColor"/><circle cx="4.5" cy="17" r="1" fill="currentColor"/></svg></span><h3>Submitted tickets, listed</h3><p>Submitted tickets are listed in the app, so you are not hunting a glovebox.</p></article>
+          <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s6-5.2 6-10a6 6 0 1 0-12 0c0 4.8 6 10 6 10Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="11" r="2" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><h3>Location while clocked in</h3><p>Precise location runs in the foreground and in the background only while the driver is clocked in. The company can see it.</p></article>
+          <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 16h9a3.5 3.5 0 0 0 .4-7 4.5 4.5 0 0 0-8.6-1.2A3.2 3.2 0 0 0 7 16Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 19h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><h3>The queue holds the gap</h3><p>Clock events and GPS points stay on the device and send when a connection is available.</p></article>
+          <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.5 20 19H4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 10v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.2" r="0.8" fill="currentColor"/></svg></span><h3>Missing tickets get an alert</h3><p>The app includes alerts for missing tickets, the ones that slow down getting paid.</p></article>
         </div>
-        <figure class="phone">
-        <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
+        <p class="intro">Drivers also sign in, use settings, and send feedback from inside the app.</p>
+      </div>
+    </section>
+    <section class="section band-white reveal">
+      <div class="wrap">
+        <article class="pair">
+          <div class="pair-copy">
+            <h2>Can drivers edit their clock times?</h2>
+            <p>No. The driver clocks in and the time is filled in automatically. Clock out works the same way. While the driver is clocked in, the app tracks precise location in the foreground and in the background. That is the trucking time clock in the beta. The full order is on <a href="how-it-works.html">haul ticket tracking</a>.</p>
+          </div>
+          <figure class="phone">
+            <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
               <div class="mock-card"><strong>Clock in</strong><p>The time is filled in. It cannot be edited.</p><div class="mock-btn">Clock in</div></div>
               <div class="mock-card"><strong>Clock out</strong><p>The clock-out time is filled in the same way.</p><div class="mock-btn">Clock out</div></div></div></div></div>
-        <figcaption>Mockup of clock-in and clock-out. Sample screen, not a record from a job.</figcaption>
-      </figure>
-      </article>
-      <article class="pair flip reveal">
-        <div class="pair-copy">
-          <h2>How do haulers stop losing paper tickets?</h2>
-          <p>A driver photographs the ticket and can open that photo full screen. Submitted tickets are listed in the app, and missing-ticket alerts are included. The company can see the photo. That is the fix for the slip that gets lost or crumpled.</p>
-        </div>
-        <figure class="phone">
-        <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
+            <figcaption>Mockup of clock-in and clock-out. Sample screen, not a record from a job.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section class="section band-gray reveal">
+      <div class="wrap">
+        <article class="pair flip">
+          <div class="pair-copy">
+            <h2>How do haulers stop losing paper tickets?</h2>
+            <p>A driver photographs the ticket and can open that photo full screen. Submitted tickets are listed in the app, and missing-ticket alerts are included. The company can see the photo.</p>
+          </div>
+          <figure class="phone">
+            <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
               <div class="mock-card"><strong>Ticket photo</strong><div class="mock-photo">Photo placeholder</div><div class="mock-btn">Open full screen</div></div>
               <div class="mock-row">Submitted tickets <em>List</em></div>
               <div class="mock-row">Missing ticket <em>Alert</em></div></div></div></div>
-        <figcaption>Mockup of a ticket photo placeholder, a submitted-ticket list, and a missing-ticket alert. Not a record from a job.</figcaption>
-      </figure>
-      </article>
-      <article class="pair reveal">
-        <div class="pair-copy">
-          <h2>Does it work without cell signal?</h2>
-          <p>Clock events and GPS points stay in an offline queue on the device. They send when a connection is available. Location is still collected only while the driver is clocked in.</p>
-        </div>
-        <figure class="phone">
-        <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
+            <figcaption>Mockup of a ticket photo placeholder, a submitted-ticket list, and a missing-ticket alert. Not a record from a job.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section class="section band-white reveal">
+      <div class="wrap">
+        <article class="pair">
+          <div class="pair-copy">
+            <h2>Does it work without cell signal?</h2>
+            <p>Clock events and GPS points stay in an offline queue on the device. They send when a connection is available. Location is still collected only while the driver is clocked in.</p>
+          </div>
+          <figure class="phone">
+            <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
               <div class="mock-card"><strong>Offline queue</strong><p>Waiting on the device until a connection is available.</p></div>
               <div class="mock-row">Clock event <em>Queued</em></div>
               <div class="mock-row">GPS point <em>Queued</em></div></div></div></div>
-        <figcaption>Mockup of an offline queue holding a clock event and a GPS point. Not a record from a job.</figcaption>
-      </figure>
-      </article>
-
-      <section class="section reveal" aria-labelledby="dispatch-heading">
+            <figcaption>Mockup of an offline queue holding a clock event and a GPS point. Not a record from a job.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section class="section band-gray reveal" aria-labelledby="dispatch-heading">
+      <div class="wrap">
         <h2 id="dispatch-heading">Is this dump truck dispatch software?</h2>
-        <p class="intro">Not yet. Dispatch screens are not in the beta. Today the driver's company can see clock times, ticket photos, and location from while the driver was clocked in. An owner live map, invoicing and reports, and admin screens are coming soon.</p>
-      </section>
-      <section class="section reveal" id="coming-soon" aria-labelledby="soon-heading">
-        <h2 id="soon-heading">Coming soon</h2>
+        <p class="intro">Not yet. Dispatch screens are not in the beta. Today the driver's company can see clock times, ticket photos, and location from while the driver was clocked in. An owner live map, invoicing and reports, and admin screens are coming soon. See <a href="how-it-works.html">how a haul gets on record</a>.</p>
+        <h2 id="soon-heading">What is still coming soon?</h2>
         <p class="intro">These are not in the beta.</p>
         <ul class="roadmap">
           <li><span class="tag">Coming soon</span> Owner live map</li>
           <li><span class="tag">Coming soon</span> Invoicing and reports</li>
           <li><span class="tag">Coming soon</span> Admin screens</li>
         </ul>
-      </section>
-    </div>
+      </div>
+    </section>
   </main>
   <section class="cta-band road" aria-labelledby="demo-close">
     <div class="wrap">

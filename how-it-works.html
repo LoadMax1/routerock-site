@@ -17,9 +17,8 @@
   <meta name="twitter:title" content="Haul ticket tracking | RouteRock">
   <meta name="twitter:description" content="Haul ticket tracking from clock-in to the photo the office can see, with a trucking time clock and an offline queue. Built for dump-truck work.">
   <meta name="twitter:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/montserrat-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
@@ -39,10 +38,6 @@
       "email": "loadmaxlog@gmail.com",
       "logo": "https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg",
       "description": "RouteRock is construction hauling software in beta, built inside LoadMax Logistics, a dump-truck company in Charlotte, North Carolina.",
-      "founder": {
-        "@type": "Person",
-        "name": "Jerjuan Edwards"
-      },
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Charlotte",
@@ -114,13 +109,17 @@
     </div>
   </header>
   <main id="content">
-    <div class="wrap">
-      <div class="page-intro">
+    <section class="section band-white">
+      <div class="wrap page-intro">
         <p class="kicker">Beta</p>
         <h1>Haul ticket tracking, from the photo to the office.</h1>
-        <p class="lede">A haul ticket only helps if it survives the day. The driver clocks in, photographs the ticket, and the company can see that record. Ticket details live on the <a href="features.html">dump truck ticketing app</a> page. The company behind it is in <a href="about.html">Charlotte, NC</a>.</p>
+        <p class="lede">The driver clocks in, photographs the ticket, and the company can see that record.</p>
+        <p class="intro">Ticket details are on the <a href="features.html">dump truck ticketing app</a> page. The company behind it is in <a href="about.html">Charlotte, NC</a>.</p>
         <p><a class="button button-lg" href="contact.html#demo">Book a demo</a></p>
       </div>
+    </section>
+    <section class="section band-gray">
+      <div class="wrap">
       <ol class="timeline">
         <li class="reveal">
           <span class="step-num">1</span>
@@ -141,7 +140,7 @@
           <span class="step-num">2</span>
           <div class="step-body">
             <div class="timeline-copy">
-              <h2>The driver snaps the ticket</h2>
+              <h2>How does the driver snap the ticket?</h2>
               <p>A photo of the ticket can be opened full screen. Submitted tickets are listed in the app. Missing-ticket alerts are included, for the ticket that would otherwise slow down getting paid.</p>
             </div>
             <figure class="phone">
@@ -153,19 +152,11 @@
       </figure>
           </div>
         </li>
-        <li class="timeline-break reveal">
-          <span class="step-num" aria-hidden="true"></span>
-          <aside class="mid-cta" aria-labelledby="demo-mid">
-            <h2 id="demo-mid">Book a demo</h2>
-            <p>About 15 minutes on the clock, the ticket photo, and what the owner sees.</p>
-            <a class="button" href="contact.html#demo">Book a demo</a>
-          </aside>
-        </li>
         <li class="reveal">
           <span class="step-num">3</span>
           <div class="step-body">
             <div class="timeline-copy">
-              <h2>Works offline</h2>
+              <h2>Does it work without cell signal?</h2>
               <p>If the device is offline, clock events and GPS points stay in a queue and send when a connection is available. You are not waiting on a bar of service to keep the record.</p>
             </div>
             <figure class="phone">
@@ -181,8 +172,8 @@
           <span class="step-num">4</span>
           <div class="step-body">
             <div class="timeline-copy">
-              <h2>The company sees the data</h2>
-              <p>Clock times, ticket photos, and precise location from while the driver was clocked in are visible to the driver's company. An owner live map, invoicing and reports, and admin screens are coming soon. They are not in the beta, so this is not dispatch software yet.</p>
+              <h2>Is this dump truck dispatch software?</h2>
+              <p>Not yet. The company can see clock times, ticket photos, and location from while the driver was clocked in. An owner live map, invoicing and reports, and admin screens are coming soon.</p>
             </div>
             <figure class="phone">
         <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
@@ -196,6 +187,7 @@
         </li>
       </ol>
     </div>
+    </section>
   </main>
   <section class="cta-band road" aria-labelledby="demo-close">
     <div class="wrap">
