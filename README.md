@@ -16,7 +16,7 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | `charlotte-nc.html` | Dump truck ticketing app Charlotte NC |
 | `articles/index.html` | Dump truck hauling articles, plus four posts |
 | `404.html` | Missing-page message. Not listed in the sitemap |
-| `contact.html` | Demo page. About 15 minutes. The form opens a mailto to loadmaxlog@gmail.com. A plain mailto link remains |
+| `contact.html` | Demo page. About 15 minutes. The form opens a mailto to demo@routerockhub.com. A plain mailto link remains |
 | `privacy.html` | Privacy policy for the mobile app. Keep this URL stable. |
 | `support.html` | How to get help, and a short FAQ |
 | `delete-account.html` | How to request account and data deletion |
@@ -56,6 +56,6 @@ The typeface is Montserrat, self-hosted as latin WOFF2 files in `assets/fonts/` 
 
 ## Contact
 
-Questions about the app go to [loadmaxlog@gmail.com](mailto:loadmaxlog@gmail.com).
+Questions about the app go to [support@routerockhub.com](mailto:support@routerockhub.com).
 
 RouteRock (operated by LoadMax Logistics, Charlotte, NC).
