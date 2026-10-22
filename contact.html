@@ -110,7 +110,7 @@
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Primary">
         <ul class="nav-list">
-          <li><a href="features.html">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="about.html">About</a></li>
+          <li><a href="features.html">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="about.html">About</a></li><li><a href="articles/">Articles</a></li>
         </ul>
         <a class="button nav-cta" href="contact.html#demo" aria-current="page">Book a demo</a>
       </nav>
@@ -121,8 +121,41 @@
       <div class="wrap page-intro">
         <p class="kicker">About 15 minutes</p>
         <h1>Book a demo</h1>
-        <p class="lede">We walk the driver flow and what the owner can see today. The button opens an email. There is no form.</p>
-        <p><a class="button button-lg" href="mailto:loadmaxlog@gmail.com?subject=RouteRock%20demo%20request&amp;body=I%27d%20like%20to%20book%20a%20RouteRock%20demo.%0A%0AName%3A%0ACompany%3A%0ABest%20way%20to%20reach%20me%3A%0A">Book a demo</a></p>
+        <p class="lede">We walk the driver flow and what the company can see today. The form opens an email. Nothing is stored on this site.</p>
+        <form id="demo-form" class="demo-form" action="mailto:loadmaxlog@gmail.com?subject=RouteRock%20demo%20request" method="post" enctype="text/plain">
+          <div class="field">
+            <label for="demo-name">Name</label>
+            <input id="demo-name" name="name" type="text" autocomplete="name" required aria-describedby="demo-name-error">
+            <p class="field-error" id="demo-name-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="demo-company">Company</label>
+            <input id="demo-company" name="company" type="text" autocomplete="organization" required aria-describedby="demo-company-error">
+            <p class="field-error" id="demo-company-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="demo-email">Email</label>
+            <input id="demo-email" name="email" type="email" autocomplete="email" required aria-describedby="demo-email-error">
+            <p class="field-error" id="demo-email-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="demo-phone">Phone (optional)</label>
+            <input id="demo-phone" name="phone" type="tel" autocomplete="tel" aria-describedby="demo-phone-error">
+            <p class="field-error" id="demo-phone-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="demo-trucks">Trucks in fleet (optional)</label>
+            <input id="demo-trucks" name="trucks" type="text" inputmode="numeric" pattern="[0-9]{1,5}" title="A whole number, or leave blank" aria-describedby="demo-trucks-error">
+            <p class="field-error" id="demo-trucks-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="demo-message">Message (optional)</label>
+            <textarea id="demo-message" name="message" aria-describedby="demo-message-error"></textarea>
+            <p class="field-error" id="demo-message-error" hidden></p>
+          </div>
+          <button class="button button-lg" type="submit">Book a demo</button>
+        </form>
+        <p class="intro">If the form does not open your email, <a href="mailto:loadmaxlog@gmail.com?subject=RouteRock%20demo%20request&amp;body=I%27d%20like%20to%20book%20a%20RouteRock%20demo.%0A%0AName%3A%0ACompany%3A%0AEmail%3A%0APhone%3A%0ATrucks%20in%20fleet%3A%0AMessage%3A%0A">email loadmaxlog@gmail.com</a> with the subject RouteRock demo request.</p>
       </div>
     </section>
     <section class="section band-gray reveal" aria-labelledby="see-heading">
@@ -166,7 +199,7 @@
         <p class="footer-label">RouteRock</p>
         <p class="operator">RouteRock (operated by LoadMax Logistics, Charlotte, NC)</p>
       </div>
-      <nav aria-label="Product"><p class="footer-label">Product</p><ul><li><a href="features.html">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li></ul></nav><nav aria-label="Company"><p class="footer-label">Company</p><ul><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li><li><a href="brand.html">Brand</a></li></ul></nav><nav aria-label="Help"><p class="footer-label">Help</p><ul><li><a href="support.html">Support</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="delete-account.html">Delete account</a></li></ul></nav>
+      <nav aria-label="Product"><p class="footer-label">Product</p><ul><li><a href="features.html">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="articles/">Articles</a></li></ul></nav><nav aria-label="Company"><p class="footer-label">Company</p><ul><li><a href="about.html">About</a></li><li><a href="charlotte-nc.html">Charlotte, NC</a></li><li><a href="contact.html" aria-current="page">Contact</a></li><li><a href="brand.html">Brand</a></li></ul></nav><nav aria-label="Help"><p class="footer-label">Help</p><ul><li><a href="support.html">Support</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="delete-account.html">Delete account</a></li></ul></nav>
     </div>
     <div class="wrap">
       <p class="footer-note"><a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a></p>
