@@ -709,110 +709,23 @@ a:hover {
 }
 
 .phone-frame {
-  padding: 12px;
-  border-radius: 32px;
-  background: var(--color-navy);
-  box-shadow: var(--shadow);
+  padding: 10px;
+  border-radius: 36px;
+  background: #121826;
+  box-shadow: var(--shadow), 0 0 0 1px rgba(255, 255, 255, 0.22);
 }
 
-.phone-screen {
-  overflow: hidden;
-  min-height: 430px;
-  border-radius: 22px;
-  background: var(--color-bg);
-  color: var(--color-navy);
-}
-
-.mock-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.85rem 0.9rem 0.7rem;
-  background: var(--color-white);
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.mock-top span {
-  color: var(--color-navy);
-}
-
-.mock-body {
-  display: grid;
-  gap: 0.65rem;
-  padding: 0.85rem;
-}
-
-.mock-card {
-  background: var(--color-white);
-  border: 1px solid var(--color-line);
-  border-radius: 12px;
-  padding: 0.75rem;
-}
-
-.mock-card strong {
+.phone-frame img {
   display: block;
-  font-size: 0.95rem;
+  width: 100%;
+  height: auto;
+  border-radius: 26px;
 }
 
-.mock-card p,
-.mock-note {
-  margin-top: 0.25rem;
-  color: var(--color-muted);
-  font-size: 0.82rem;
-  font-weight: 500;
-}
-
-.mock-btn {
-  display: block;
-  margin-top: 0.65rem;
-  padding: 0.7rem;
-  border-radius: 9px;
-  background: var(--color-orange);
-  color: var(--color-navy);
-  font-size: 0.92rem;
-  font-weight: 800;
-  text-align: center;
-}
-
-.mock-photo {
+.offline-grid {
   display: grid;
-  place-items: center;
-  height: 132px;
-  margin-top: 0.55rem;
-  border-radius: 10px;
-  background:
-    linear-gradient(160deg, rgba(31, 42, 68, 0.08), rgba(245, 130, 32, 0.2)),
-    var(--color-bg);
-  color: var(--color-navy);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.mock-row {
-  display: flex;
+  gap: 1.5rem;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-  padding: 0.65rem 0.7rem;
-  background: var(--color-white);
-  border: 1px solid var(--color-line);
-  border-radius: 10px;
-  font-size: 0.84rem;
-  font-weight: 700;
-}
-
-.mock-row em {
-  color: var(--color-navy);
-  font-style: normal;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .phone figcaption {
@@ -823,7 +736,8 @@ a:hover {
   text-align: center;
 }
 
-.hero .phone figcaption {
+.hero .phone figcaption,
+.band-navy .phone figcaption {
   color: rgba(255, 255, 255, 0.82);
 }
 
@@ -1325,7 +1239,8 @@ html.can-reveal .reveal.is-in {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .hero-grid {
+  .hero-grid,
+  .offline-grid {
     grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.75fr);
   }
 
