@@ -2,21 +2,34 @@
   document.documentElement.classList.add("js");
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var nodes = document.querySelectorAll(".reveal");
+  var root = document.documentElement;
 
   if (!reduce && "IntersectionObserver" in window) {
-    var observer = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (!entry.isIntersecting) return;
-          entry.target.classList.add("is-in");
-          observer.unobserve(entry.target);
-        });
-      },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.12 }
-    );
+    var pending = [];
     nodes.forEach(function (node) {
-      observer.observe(node);
+      var rect = node.getBoundingClientRect();
+      if (rect.bottom > 0 && rect.top < window.innerHeight) {
+        node.classList.add("is-in");
+      } else {
+        pending.push(node);
+      }
     });
+    root.classList.add("can-reveal");
+    if (pending.length) {
+      var observer = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("is-in");
+            observer.unobserve(entry.target);
+          });
+        },
+        { rootMargin: "0px", threshold: 0 }
+      );
+      pending.forEach(function (node) {
+        observer.observe(node);
+      });
+    }
   }
 
   var header = document.querySelector(".site-header");
