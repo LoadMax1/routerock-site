@@ -1,0 +1,47 @@
+# RouteRock
+
+> RouteRock is construction hauling software in beta for dump-truck companies. It was built inside LoadMax Logistics, a working hauling company in Charlotte, North Carolina. LoadMax hauls in North Carolina and South Carolina.
+
+RouteRock is the name in the app stores. Jerjuan Edwards is the founder. The first customer is LoadMax Logistics. The operator line is: RouteRock (operated by LoadMax Logistics, Charlotte, NC). It is planned so more than one company can use it. Pricing is not set. This site lists no price and no perks. There are no published ratings, rankings, or customer counts.
+
+## What the beta does
+
+- Drivers sign in.
+- Drivers clock in and clock out. Times are filled in automatically. Drivers cannot edit them.
+- Drivers photograph a ticket and can open the photo full screen.
+- Submitted tickets are listed in the app.
+- The app includes missing-ticket alerts.
+- Settings and in-app feedback are in the app.
+- Precise location is collected in the foreground and in the background only while a driver is clocked in. It is stored for the driver's company.
+- Clock events and GPS points stay in an offline queue on the device and send when a connection is available.
+
+## Not in the beta
+
+- Owner live map
+- Invoicing and reports
+- Admin screens
+
+Dump truck dispatch software is not what the beta is. The company can see clock times, ticket photos, and location from while the driver was clocked in. The live map and admin screens are coming soon.
+
+iPhone and Android details are coming soon.
+
+## Demo
+
+A demo is about 15 minutes. It walks through the driver flow and what the owner can see today. Email loadmaxlog@gmail.com. The contact page opens that email with the subject "RouteRock demo request".
+
+## Pages
+
+- https://loadmax1.github.io/routerock-site/ — Construction hauling software
+- https://loadmax1.github.io/routerock-site/features.html — Dump truck ticketing app
+- https://loadmax1.github.io/routerock-site/how-it-works.html — Haul ticket tracking, including the trucking time clock
+- https://loadmax1.github.io/routerock-site/about.html — Charlotte, NC
+- https://loadmax1.github.io/routerock-site/pricing.html — Pricing is not set
+- https://loadmax1.github.io/routerock-site/contact.html — Book a demo
+- https://loadmax1.github.io/routerock-site/privacy.html — Privacy policy, effective October 21, 2026
+- https://loadmax1.github.io/routerock-site/support.html — Support
+- https://loadmax1.github.io/routerock-site/delete-account.html — Delete an account
+- https://loadmax1.github.io/routerock-site/brand.html — Logo, colors, and type
+
+## Contact
+
+loadmaxlog@gmail.com

@@ -26,6 +26,73 @@
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#1F2A44">
   <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://loadmax1.github.io/routerock-site/#organization",
+      "name": "RouteRock",
+      "url": "https://loadmax1.github.io/routerock-site/",
+      "email": "loadmaxlog@gmail.com",
+      "logo": "https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg",
+      "description": "RouteRock is construction hauling software in beta, built inside LoadMax Logistics, a dump-truck company in Charlotte, North Carolina.",
+      "founder": {
+        "@type": "Person",
+        "name": "Jerjuan Edwards"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Charlotte",
+        "addressRegion": "NC",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://loadmax1.github.io/routerock-site/#app",
+      "name": "RouteRock",
+      "applicationCategory": "BusinessApplication",
+      "url": "https://loadmax1.github.io/routerock-site/",
+      "description": "A dump truck ticketing app and trucking time clock for construction hauling. Drivers clock in, photograph tickets, and share location only while clocked in. An offline queue holds clock events and GPS points.",
+      "featureList": [
+        "Driver login",
+        "Automatic clock in and clock out",
+        "Ticket photos with a full-screen viewer",
+        "Submitted ticket list",
+        "Missing-ticket alerts",
+        "Offline queue for clock events and GPS points",
+        "GPS while clocked in",
+        "Settings",
+        "In-app feedback"
+      ],
+      "provider": {
+        "@id": "https://loadmax1.github.io/routerock-site/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://loadmax1.github.io/routerock-site/delete-account.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://loadmax1.github.io/routerock-site/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Delete account",
+          "item": "https://loadmax1.github.io/routerock-site/delete-account.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -34,17 +101,15 @@
       <a class="logo-link" href="index.html">
         <img src="assets/brand/logo-horizontal.svg" alt="RouteRock" width="410" height="100">
       </a>
-      <nav aria-label="Primary">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="how-it-works.html">How it works</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li><a href="support.html">Support</a></li>
+          <li><a href="features.html">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="about.html">About</a></li>
         </ul>
+        <a class="button nav-cta" href="contact.html#demo">Book a demo</a>
       </nav>
     </div>
   </header>
@@ -81,25 +146,26 @@
       <p>Email <a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a>. The <a href="privacy.html">privacy policy</a> describes what the app collects. RouteRock is operated by LoadMax Logistics, Charlotte, NC.</p>
     </div>
   </main>
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p class="operator">RouteRock (operated by LoadMax Logistics, Charlotte, NC)</p>
-      <nav aria-label="Footer">
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="how-it-works.html">How it works</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="delete-account.html" aria-current="page">Delete account</a></li>
-          <li><a href="brand.html">Brand</a></li>
-        </ul>
-      </nav>
-      <p><a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a></p>
+  <section class="cta-band road" aria-labelledby="demo-close">
+    <div class="wrap">
+      <h2 id="demo-close">Book a demo</h2>
+      <p>About 15 minutes on the driver flow and what the owner can see.</p>
+      <p><a class="button button-lg" href="contact.html#demo">Book a demo</a></p>
+    </div>
+  </section>
+  <footer class="site-footer road">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-label">RouteRock</p>
+        <p class="operator">RouteRock (operated by LoadMax Logistics, Charlotte, NC)</p>
+      </div>
+      <nav aria-label="Product"><p class="footer-label">Product</p><ul><li><a href="features.html">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li></ul></nav><nav aria-label="Company"><p class="footer-label">Company</p><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="brand.html">Brand</a></li></ul></nav><nav aria-label="Help"><p class="footer-label">Help</p><ul><li><a href="support.html">Support</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="delete-account.html" aria-current="page">Delete account</a></li></ul></nav>
+    </div>
+    <div class="wrap">
+      <p class="footer-note"><a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a></p>
     </div>
   </footer>
+  <script src="site.js" defer></script>
 </body>
 </html>
+

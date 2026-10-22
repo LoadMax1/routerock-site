@@ -26,6 +26,159 @@
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#1F2A44">
   <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://loadmax1.github.io/routerock-site/#organization",
+      "name": "RouteRock",
+      "url": "https://loadmax1.github.io/routerock-site/",
+      "email": "loadmaxlog@gmail.com",
+      "logo": "https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg",
+      "description": "RouteRock is construction hauling software in beta, built inside LoadMax Logistics, a dump-truck company in Charlotte, North Carolina.",
+      "founder": {
+        "@type": "Person",
+        "name": "Jerjuan Edwards"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Charlotte",
+        "addressRegion": "NC",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://loadmax1.github.io/routerock-site/#app",
+      "name": "RouteRock",
+      "applicationCategory": "BusinessApplication",
+      "url": "https://loadmax1.github.io/routerock-site/",
+      "description": "A dump truck ticketing app and trucking time clock for construction hauling. Drivers clock in, photograph tickets, and share location only while clocked in. An offline queue holds clock events and GPS points.",
+      "featureList": [
+        "Driver login",
+        "Automatic clock in and clock out",
+        "Ticket photos with a full-screen viewer",
+        "Submitted ticket list",
+        "Missing-ticket alerts",
+        "Offline queue for clock events and GPS points",
+        "GPS while clocked in",
+        "Settings",
+        "In-app feedback"
+      ],
+      "provider": {
+        "@id": "https://loadmax1.github.io/routerock-site/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://loadmax1.github.io/routerock-site/support.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://loadmax1.github.io/routerock-site/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Support",
+          "item": "https://loadmax1.github.io/routerock-site/support.html"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://loadmax1.github.io/routerock-site/support.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is RouteRock?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RouteRock is a mobile operations app for construction hauling companies. Drivers use it on the job. The app is in beta. The name in the app stores is RouteRock. In the beta, drivers can sign in, clock in and out, upload ticket photos and open them full screen, see a list of submitted tickets, get missing-ticket alerts, and send feedback. Settings are in the app. Clock events and GPS points can wait in an offline queue. The app tracks GPS while a driver is clocked in, including background tracking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is it for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Owners and dispatchers at dump-truck companies, and the drivers who work for them. Jerjuan Edwards is the founder. The first company using RouteRock is LoadMax Logistics in Charlotte, North Carolina. LoadMax hauls in North Carolina and South Carolina. RouteRock is planned so more than one company can use it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a driver change a clock time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clock-in and clock-out times are filled in automatically. Drivers cannot change them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do tickets work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A driver uploads a photo of a ticket and can open it in a full-screen viewer. Submitted tickets are listed in the app. The app includes missing-ticket alerts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the offline queue do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The app keeps an offline queue for clock events and GPS points. Those items stay on the device and send when a connection is available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When does location tracking run?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Precise location is collected in the foreground and in the background only while a driver is clocked in. It is stored in our Supabase database and is visible to the driver\u2019s company. Read the privacy policy for the full account of what the app collects."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where are settings and feedback?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both are in the app. Feedback is sent from inside RouteRock."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is coming soon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An owner live map, invoicing and reports, and admin screens are coming soon. They are not in the beta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I delete an account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Email loadmaxlog@gmail.com from the account email with the subject Delete my RouteRock account. We delete the account and its data within 30 days. The company may retain records it is legally required to keep. Steps are on the Delete account page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who do I contact about privacy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Email loadmaxlog@gmail.com. The policy is on the Privacy page. RouteRock is operated by LoadMax Logistics, Charlotte, NC."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -34,17 +187,15 @@
       <a class="logo-link" href="index.html">
         <img src="assets/brand/logo-horizontal.svg" alt="RouteRock" width="410" height="100">
       </a>
-      <nav aria-label="Primary">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="how-it-works.html">How it works</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li><a href="support.html" aria-current="page">Support</a></li>
+          <li><a href="features.html">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="about.html">About</a></li>
         </ul>
+        <a class="button nav-cta" href="contact.html#demo">Book a demo</a>
       </nav>
     </div>
   </header>
@@ -87,25 +238,26 @@
       <p>Email <a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a>. The policy is on the <a href="privacy.html">Privacy</a> page. RouteRock is operated by LoadMax Logistics, Charlotte, NC.</p>
     </div>
   </main>
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p class="operator">RouteRock (operated by LoadMax Logistics, Charlotte, NC)</p>
-      <nav aria-label="Footer">
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="how-it-works.html">How it works</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li><a href="support.html" aria-current="page">Support</a></li>
-          <li><a href="delete-account.html">Delete account</a></li>
-          <li><a href="brand.html">Brand</a></li>
-        </ul>
-      </nav>
-      <p><a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a></p>
+  <section class="cta-band road" aria-labelledby="demo-close">
+    <div class="wrap">
+      <h2 id="demo-close">Book a demo</h2>
+      <p>About 15 minutes on the driver flow and what the owner can see.</p>
+      <p><a class="button button-lg" href="contact.html#demo">Book a demo</a></p>
+    </div>
+  </section>
+  <footer class="site-footer road">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-label">RouteRock</p>
+        <p class="operator">RouteRock (operated by LoadMax Logistics, Charlotte, NC)</p>
+      </div>
+      <nav aria-label="Product"><p class="footer-label">Product</p><ul><li><a href="features.html">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li></ul></nav><nav aria-label="Company"><p class="footer-label">Company</p><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="brand.html">Brand</a></li></ul></nav><nav aria-label="Help"><p class="footer-label">Help</p><ul><li><a href="support.html" aria-current="page">Support</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="delete-account.html">Delete account</a></li></ul></nav>
+    </div>
+    <div class="wrap">
+      <p class="footer-note"><a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a></p>
     </div>
   </footer>
+  <script src="site.js" defer></script>
 </body>
 </html>
+

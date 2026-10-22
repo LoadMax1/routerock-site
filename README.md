@@ -8,18 +8,18 @@ GitHub Pages serves it from the root of the default branch (`main`).
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | Home: what RouteRock is, beta highlights, how it works, and a demo request |
-| `features.html` | Beta features in detail, plus a labeled coming-soon section |
-| `how-it-works.html` | Separate steps for the driver and for the owner or dispatcher |
-| `pricing.html` | Pricing is not set yet. Join the beta or request pricing by email |
-| `about.html` | Founder and the first customer |
-| `contact.html` | Support email and a mailto demo request |
+| `index.html` | Construction hauling software: the pain, who it is for, and questions |
+| `features.html` | Dump truck ticketing app, plus an honest note that dispatch is not in the beta |
+| `how-it-works.html` | Haul ticket tracking and the trucking time clock, including offline |
+| `pricing.html` | Founding beta. Pricing is not set yet. No prices or perks |
+| `about.html` | Charlotte, NC. Founder, LoadMax Logistics, and the trust line |
+| `contact.html` | Demo page. About 15 minutes. Mailto request, no form |
 | `privacy.html` | Privacy policy for the mobile app. Keep this URL stable. |
 | `support.html` | How to get help, and a short FAQ |
 | `delete-account.html` | How to request account and data deletion |
 | `brand.html` | Logo files, colors, and type. Linked from the footer. |
 
-The header links Home, Features, How it works, Pricing, About, Contact, Privacy, and Support. The footer adds Delete account and Brand. Styles live in `styles.css`. Logo files, icons, and the original artwork are in `assets/brand/`. `site.webmanifest` and `favicon.ico` are at the repository root. `sitemap.xml` and `robots.txt` are at the repository root.
+The header links Features, How it works, Pricing, and About, plus a Book a demo button that opens `contact.html`. On a narrow screen the links sit behind a menu button. Privacy, Support, Delete account, and Brand are in the footer. Styles live in `styles.css`. `site.js` fades sections in on scroll and closes the menu with Escape. Pages include JSON-LD for the organization, the app, breadcrumbs, and the FAQ blocks. `llms.txt` is a plain-language summary. Logo files are in `assets/brand/`. `sitemap.xml` and `robots.txt` are at the repository root.
 
 ## Preview locally
 
