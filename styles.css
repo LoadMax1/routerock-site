@@ -910,13 +910,13 @@ main > .wrap {
   font-size: 0.92rem;
 }
 
-.js .reveal {
+html.can-reveal .reveal {
   opacity: 0;
   transform: translateY(14px);
   transition: opacity 0.55s ease, transform 0.55s ease;
 }
 
-.js .reveal.is-in {
+html.can-reveal .reveal.is-in {
   opacity: 1;
   transform: none;
 }
@@ -1232,7 +1232,7 @@ main > .wrap {
 
   .signal i,
   .road-dash,
-  .js .reveal {
+  html.can-reveal .reveal {
     animation: none;
     opacity: 1;
     transform: none;
@@ -1282,7 +1282,7 @@ main > .wrap {
     display: none;
   }
 
-  .js .reveal {
+  html.can-reveal .reveal {
     opacity: 1;
     transform: none;
   }
