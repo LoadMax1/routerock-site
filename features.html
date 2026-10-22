@@ -3,29 +3,96 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Features · RouteRock</title>
-  <meta name="description" content="Beta features in RouteRock: driver login, clock in and out, ticket photos, GPS while clocked in, an offline queue, and missing-ticket alerts.">
+  <title>Dump truck ticketing app | RouteRock</title>
+  <meta name="description" content="A dump truck ticketing app for photos instead of crumpled paper. Drivers snap the ticket, open it full screen, and the company can see it. In beta.">
   <link rel="canonical" href="https://loadmax1.github.io/routerock-site/features.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="RouteRock">
-  <meta property="og:title" content="Features · RouteRock">
-  <meta property="og:description" content="Beta features in RouteRock: driver login, clock in and out, ticket photos, GPS while clocked in, an offline queue, and missing-ticket alerts.">
+  <meta property="og:title" content="Dump truck ticketing app | RouteRock">
+  <meta property="og:description" content="A dump truck ticketing app for photos instead of crumpled paper. Drivers snap the ticket, open it full screen, and the company can see it. In beta.">
   <meta property="og:url" content="https://loadmax1.github.io/routerock-site/features.html">
   <meta property="og:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
   <meta property="og:image:alt" content="RouteRock logo, a navy stone with a white RR mark and the RouteRock wordmark">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Features · RouteRock">
-  <meta name="twitter:description" content="Beta features in RouteRock: driver login, clock in and out, ticket photos, GPS while clocked in, an offline queue, and missing-ticket alerts.">
+  <meta name="twitter:title" content="Dump truck ticketing app | RouteRock">
+  <meta name="twitter:description" content="A dump truck ticketing app for photos instead of crumpled paper. Drivers snap the ticket, open it full screen, and the company can see it. In beta.">
   <meta name="twitter:image" content="https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
   <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#1F2A44">
   <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://loadmax1.github.io/routerock-site/#organization",
+      "name": "RouteRock",
+      "url": "https://loadmax1.github.io/routerock-site/",
+      "email": "loadmaxlog@gmail.com",
+      "logo": "https://loadmax1.github.io/routerock-site/assets/brand/main-final.jpg",
+      "description": "RouteRock is construction hauling software in beta, built inside LoadMax Logistics, a dump-truck company in Charlotte, North Carolina.",
+      "founder": {
+        "@type": "Person",
+        "name": "Jerjuan Edwards"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Charlotte",
+        "addressRegion": "NC",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://loadmax1.github.io/routerock-site/#app",
+      "name": "RouteRock",
+      "applicationCategory": "BusinessApplication",
+      "url": "https://loadmax1.github.io/routerock-site/",
+      "description": "A dump truck ticketing app and trucking time clock for construction hauling. Drivers clock in, photograph tickets, and share location only while clocked in. An offline queue holds clock events and GPS points.",
+      "featureList": [
+        "Driver login",
+        "Automatic clock in and clock out",
+        "Ticket photos with a full-screen viewer",
+        "Submitted ticket list",
+        "Missing-ticket alerts",
+        "Offline queue for clock events and GPS points",
+        "GPS while clocked in",
+        "Settings",
+        "In-app feedback"
+      ],
+      "provider": {
+        "@id": "https://loadmax1.github.io/routerock-site/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://loadmax1.github.io/routerock-site/features.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://loadmax1.github.io/routerock-site/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Features",
+          "item": "https://loadmax1.github.io/routerock-site/features.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -34,70 +101,88 @@
       <a class="logo-link" href="index.html">
         <img src="assets/brand/logo-horizontal.svg" alt="RouteRock" width="410" height="100">
       </a>
-      <nav aria-label="Primary">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="features.html" aria-current="page">Features</a></li>
-          <li><a href="how-it-works.html">How it works</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li><a href="support.html">Support</a></li>
+          <li><a href="features.html" aria-current="page">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="about.html">About</a></li>
         </ul>
+        <a class="button nav-cta" href="contact.html#demo">Book a demo</a>
       </nav>
     </div>
   </header>
   <main id="content">
-    <div class="wrap wide">
+    <div class="wrap">
       <div class="page-intro">
         <p class="kicker">Beta</p>
-        <h1>Features</h1>
-        <p class="lede">These features are in the current beta. Drivers sign in and use them on the job.</p>
+        <h1>A dump truck ticketing app for the slip that never makes it back.</h1>
+        <p class="lede">The paper ticket gets crumpled in the cupholder or never leaves the truck. RouteRock keeps a photo instead, plus the clock time the driver cannot edit. These are the beta features. The <a href="how-it-works.html">haul ticket tracking</a> steps show the order.</p>
+        <p><a class="button button-lg" href="contact.html#demo">Book a demo</a></p>
       </div>
-      <div class="grid cols-2">
-        <article class="panel">
-          <h2>Driver login</h2>
-          <p>Drivers sign in to an account.</p>
-        </article>
-        <article class="panel">
-          <h2>Clock in and clock out</h2>
-          <p>Times are filled in automatically. Drivers cannot change them.</p>
-        </article>
-        <article class="panel">
-          <h2>Ticket photos</h2>
-          <p>Drivers upload a photo of a ticket and can open it full screen.</p>
-        </article>
-        <article class="panel">
-          <h2>Submitted tickets</h2>
-          <p>Submitted tickets are listed in the app.</p>
-        </article>
-        <article class="panel">
-          <h2>Offline queue</h2>
-          <p>Clock events and GPS points stay in a queue on the device and send when a connection is available.</p>
-        </article>
-        <article class="panel">
-          <h2>Missing-ticket alerts</h2>
-          <p>The app includes alerts for missing tickets.</p>
-        </article>
-        <article class="panel">
-          <h2>Settings</h2>
-          <p>Settings are in the app.</p>
-        </article>
-        <article class="panel">
-          <h2>In-app feedback</h2>
-          <p>Feedback can be sent from inside the app.</p>
-        </article>
-        <article class="panel">
-          <h2>GPS while clocked in</h2>
-          <p>The app tracks location while a driver is clocked in, including background tracking. Precise location is collected in the foreground and in the background only while the driver is clocked in, and it is visible to the driver's company. The <a href="privacy.html">privacy policy</a> describes what is stored.</p>
-        </article>
+      <div class="cards icons reveal">
+        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 8v4.5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><h2>Clock times stay put</h2><p>Times are filled in automatically. Drivers cannot change them.</p></article>
+        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14v4a2 2 0 0 0 0 4v4H5v-4a2 2 0 0 0 0-4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="1.5 2"/></svg></span><h2>The ticket is a photo</h2><p>Drivers upload a photo of a ticket and can open it full screen.</p></article>
+        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h11M8 12h11M8 17h11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="4.5" cy="7" r="1" fill="currentColor"/><circle cx="4.5" cy="12" r="1" fill="currentColor"/><circle cx="4.5" cy="17" r="1" fill="currentColor"/></svg></span><h2>Submitted tickets, listed</h2><p>Submitted tickets are listed in the app, so you are not hunting a glovebox.</p></article>
+        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s6-5.2 6-10a6 6 0 1 0-12 0c0 4.8 6 10 6 10Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="11" r="2" fill="none" stroke="currentColor" stroke-width="2"/></svg></span><h2>Location while clocked in</h2><p>Precise location runs in the foreground and in the background only while the driver is clocked in. The company can see it.</p></article>
+        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 16h9a3.5 3.5 0 0 0 .4-7 4.5 4.5 0 0 0-8.6-1.2A3.2 3.2 0 0 0 7 16Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 19h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><h2>The queue holds the gap</h2><p>Clock events and GPS points stay on the device and send when a connection is available.</p></article>
+        <article class="card"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.5 20 19H4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 10v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.2" r="0.8" fill="currentColor"/></svg></span><h2>Missing tickets get an alert</h2><p>The app includes alerts for missing tickets, the ones that slow down getting paid.</p></article>
       </div>
+      <p class="intro">Drivers also sign in, use settings, and send feedback from inside the app.</p>
+      <aside class="mid-cta reveal" aria-labelledby="demo-mid">
+        <h2 id="demo-mid">Book a demo</h2>
+        <p>We'll open the ticket photo, the clock, and the queue on a call of about 15 minutes.</p>
+        <a class="button" href="contact.html#demo">Book a demo</a>
+      </aside>
 
-      <section class="section" id="coming-soon" aria-labelledby="soon-heading">
+      <article class="pair reveal">
+        <div class="pair-copy">
+          <h2>Can drivers edit their clock times?</h2>
+          <p>No. The driver clocks in and the time is filled in automatically. Clock out works the same way. While the driver is clocked in, the app tracks precise location in the foreground and in the background. That is the trucking time clock in the beta. The full order is on <a href="how-it-works.html">How it works</a>.</p>
+        </div>
+        <figure class="phone">
+        <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
+              <div class="mock-card"><strong>Clock in</strong><p>The time is filled in. It cannot be edited.</p><div class="mock-btn">Clock in</div></div>
+              <div class="mock-card"><strong>Clock out</strong><p>The clock-out time is filled in the same way.</p><div class="mock-btn">Clock out</div></div></div></div></div>
+        <figcaption>Mockup of clock-in and clock-out. Sample screen, not a record from a job.</figcaption>
+      </figure>
+      </article>
+      <article class="pair flip reveal">
+        <div class="pair-copy">
+          <h2>How do haulers stop losing paper tickets?</h2>
+          <p>A driver photographs the ticket and can open that photo full screen. Submitted tickets are listed in the app, and missing-ticket alerts are included. The company can see the photo. That is the fix for the slip that gets lost or crumpled.</p>
+        </div>
+        <figure class="phone">
+        <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
+              <div class="mock-card"><strong>Ticket photo</strong><div class="mock-photo">Photo placeholder</div><div class="mock-btn">Open full screen</div></div>
+              <div class="mock-row">Submitted tickets <em>List</em></div>
+              <div class="mock-row">Missing ticket <em>Alert</em></div></div></div></div>
+        <figcaption>Mockup of a ticket photo placeholder, a submitted-ticket list, and a missing-ticket alert. Not a record from a job.</figcaption>
+      </figure>
+      </article>
+      <article class="pair reveal">
+        <div class="pair-copy">
+          <h2>Does it work without cell signal?</h2>
+          <p>Clock events and GPS points stay in an offline queue on the device. They send when a connection is available. Location is still collected only while the driver is clocked in.</p>
+        </div>
+        <figure class="phone">
+        <div class="phone-frame"><div class="phone-screen"><div class="mock-top">Mockup <span>Sample</span></div><div class="mock-body">
+              <div class="mock-card"><strong>Offline queue</strong><p>Waiting on the device until a connection is available.</p></div>
+              <div class="mock-row">Clock event <em>Queued</em></div>
+              <div class="mock-row">GPS point <em>Queued</em></div></div></div></div>
+        <figcaption>Mockup of an offline queue holding a clock event and a GPS point. Not a record from a job.</figcaption>
+      </figure>
+      </article>
+
+      <section class="section reveal" aria-labelledby="dispatch-heading">
+        <h2 id="dispatch-heading">Is this dump truck dispatch software?</h2>
+        <p class="intro">Not yet. Dispatch screens are not in the beta. Today the driver's company can see clock times, ticket photos, and location from while the driver was clocked in. An owner live map, invoicing and reports, and admin screens are coming soon.</p>
+      </section>
+      <section class="section reveal" id="coming-soon" aria-labelledby="soon-heading">
         <h2 id="soon-heading">Coming soon</h2>
-        <p class="intro">These are coming soon. They are not in the beta.</p>
-        <ul class="soon">
+        <p class="intro">These are not in the beta.</p>
+        <ul class="roadmap">
           <li><span class="tag">Coming soon</span> Owner live map</li>
           <li><span class="tag">Coming soon</span> Invoicing and reports</li>
           <li><span class="tag">Coming soon</span> Admin screens</li>
@@ -105,25 +190,25 @@
       </section>
     </div>
   </main>
-  <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <p class="operator">RouteRock (operated by LoadMax Logistics, Charlotte, NC)</p>
-      <nav aria-label="Footer">
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="features.html" aria-current="page">Features</a></li>
-          <li><a href="how-it-works.html">How it works</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li><a href="support.html">Support</a></li>
-          <li><a href="delete-account.html">Delete account</a></li>
-          <li><a href="brand.html">Brand</a></li>
-        </ul>
-      </nav>
-      <p><a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a></p>
+  <section class="cta-band road" aria-labelledby="demo-close">
+    <div class="wrap">
+      <h2 id="demo-close">Book a demo</h2>
+      <p>See the ticket photo and the clock on a short demo.</p>
+      <p><a class="button button-lg" href="contact.html#demo">Book a demo</a></p>
+    </div>
+  </section>
+  <footer class="site-footer road">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-label">RouteRock</p>
+        <p class="operator">RouteRock (operated by LoadMax Logistics, Charlotte, NC)</p>
+      </div>
+      <nav aria-label="Product"><p class="footer-label">Product</p><ul><li><a href="features.html" aria-current="page">Features</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li></ul></nav><nav aria-label="Company"><p class="footer-label">Company</p><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="brand.html">Brand</a></li></ul></nav><nav aria-label="Help"><p class="footer-label">Help</p><ul><li><a href="support.html">Support</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="delete-account.html">Delete account</a></li></ul></nav>
+    </div>
+    <div class="wrap">
+      <p class="footer-note"><a href="mailto:loadmaxlog@gmail.com">loadmaxlog@gmail.com</a></p>
     </div>
   </footer>
+  <script src="site.js" defer></script>
 </body>
 </html>
