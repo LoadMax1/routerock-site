@@ -1,6 +1,6 @@
 # RouteRock
 
-> RouteRock is construction hauling software in beta for dump-truck companies. It was built by LoadMax Logistics, a trucking company in the Charlotte, NC area. We haul in North Carolina and South Carolina.
+> RouteRock is construction hauling software in beta for dump-truck haulers in all 50 states. It was built by LoadMax Logistics, a trucking company in the Charlotte, NC area.
 
 RouteRock is the name in the app stores. A trucking company in the Charlotte, NC area is the first to use it. The operator line is: RouteRock (operated by LoadMax Logistics, Charlotte, NC). It is planned so more than one company can use it. Pricing is not set. This site lists no price and no perks. There are no published ratings, rankings, or customer counts.
 
@@ -77,7 +77,7 @@ Request beta access opens the contact page, and the email goes to loadmaxlog@gma
 
 ### Who is RouteRock for?
 
-Owners and dispatchers at dump-truck companies, and the drivers who work for them. The first company using RouteRock is a trucking company in the Charlotte, NC area. We haul in North Carolina and South Carolina. RouteRock is planned so more than one company can use it.
+Owners and dispatchers at dump-truck companies, and the drivers who work for them. The first company using RouteRock is a trucking company in the Charlotte, NC area. RouteRock works for dump truck haulers in all 50 states. It is planned so more than one company can use it.
 
 ## Pages
 
