@@ -8,11 +8,11 @@ GitHub Pages serves it from the root of the default branch (`main`).
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | Construction hauling software: the pain, who it is for, and questions |
-| `features.html` | Dump truck ticketing app, plus an honest note that dispatch is not available yet |
+| `index.html` | Dump truck ticket capture and time tracking, with available now and coming soon |
+| `features.html` | Available now and coming soon. Ticket photos are not queued offline |
 | `how-it-works.html` | Haul ticket tracking and the trucking time clock, including offline |
-| `pricing.html` | Pricing is set with each fleet during rollout. No prices or perks |
-| `about.html` | Charlotte, NC, LoadMax Logistics, and the trust line |
+| `pricing.html` | Pricing is set per fleet. No rate is published. Primary CTA is Book a demo |
+| `about.html` | Built in Charlotte, NC, for fleets nationwide |
 | `charlotte-nc.html` | Dump truck ticketing app Charlotte NC |
 | `articles/index.html` | Dump truck hauling articles, plus four posts |
 | `404.html` | Missing-page message. Not listed in the sitemap |
@@ -59,4 +59,4 @@ The typeface is Montserrat, self-hosted as latin WOFF2 files in `assets/fonts/` 
 
 Questions about the app go to [support@routerockhub.com](mailto:support@routerockhub.com).
 
-RouteRock (operated by LoadMax Logistics, Charlotte, NC).
+Built inside a working dump-truck company in the Charlotte, NC area.
