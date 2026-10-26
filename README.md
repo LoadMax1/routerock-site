@@ -9,6 +9,7 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | File | Purpose |
 | --- | --- |
 | `index.html` | Dump truck ticket capture and time tracking, with available now and coming soon |
+| `construction-hauling-software.html` | Construction hauling software for dump-truck fleets |
 | `features.html` | Available now and coming soon. Ticket photos are not queued offline |
 | `how-it-works.html` | Haul ticket tracking and the trucking time clock, including offline |
 | `pricing.html` | Pricing is set per fleet. No rate is published. Primary CTA is Book a demo |
@@ -23,7 +24,7 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | `delete-account.html` | How to request account and data deletion |
 | `brand.html` | Logo files, colors, and type. Linked from the footer. |
 
-The header links Features, How it works, Pricing, About, and Articles, plus a Book a demo button that opens `contact.html`. On a narrow screen the links sit behind a menu button. The footer also links Articles, Charlotte, NC, Privacy, Terms, Support, Delete account, and Brand. Styles live in `styles.css`. `site.js` fades sections in on scroll, closes the menu with Escape, and on the contact page checks the demo form before it opens an email. Pages include JSON-LD for the organization, the app, breadcrumbs, and the FAQ blocks. `llms.txt` is a plain-language summary. Logo files are in `assets/brand/`. `sitemap.xml` and `robots.txt` are at the repository root.
+The header links Features, How it works, Pricing, About, and Articles, plus a Book a demo button that opens `contact.html`. On a narrow screen the links sit behind a menu button. The footer also links Construction hauling software, Articles, Charlotte, NC, Privacy, Terms, Support, Delete account, and Brand. Styles live in `styles.css`. `site.js` fades sections in on scroll, closes the menu with Escape, and on the contact page checks the demo form before it opens an email. Pages include JSON-LD for the organization, the app, breadcrumbs, and the FAQ blocks. `llms.txt` is a plain-language summary. Logo files are in `assets/brand/`. `sitemap.xml` and `robots.txt` are at the repository root.
 
 ## Preview locally
 
