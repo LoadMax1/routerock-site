@@ -1,13 +1,13 @@
 # RouteRock
 
-> RouteRock is construction hauling software in early access for dump-truck fleets in all 50 states. It was built inside a working dump-truck company in the Charlotte, NC area.
+> RouteRock is construction hauling software in early access (beta) for dump-truck fleets in all 50 states. It was built inside a working dump-truck company in the Charlotte, NC area.
 
 RouteRock runs on iPhone and Android during early access. It is not a public App Store or Google Play release. This site lists no price. There are no published ratings, rankings, or customer counts. Pricing is set with each fleet. The primary action on this site is Book a demo.
 
 ## Available now
 
 - Driver time tracking — Clock in and out with auto-captured times. Drivers cannot edit them.
-- Digital load tickets — Photograph or pick a dump ticket from the camera or gallery while on shift.
+- Digital load tickets — Photograph or pick a dump ticket or scale ticket from the camera or gallery while on shift.
 - Submitted tickets / ticket history — The company and the driver see submitted ticket photos and can open them full screen.
 - Missing-ticket alerts — Flags a haul that still needs a ticket photo after the threshold.
 - GPS while clocked in — Location runs only during the shift and stops at clock-out.
@@ -31,7 +31,7 @@ Dump truck dispatch is not available yet. Today the company sees clock times, ti
 
 ## Demo
 
-Book a demo is the only call to action. A demo is about 15 minutes. It covers the driver flow and what the company can see today, and it distinguishes available features from items marked Coming soon. The contact page form opens an email to demo@routerockhub.com with the subject "RouteRock demo request", and a plain mailto remains. Book a demo to discuss pricing and early access.
+Book a demo is the only call to action. A demo is about 15 minutes. It covers the driver flow and what the company can see today, and it distinguishes available features from items marked Coming soon. The contact page Book a demo button opens an email to demo@routerockhub.com with the subject "RouteRock demo request" and a body template for name, company, email, phone, trucks in fleet, and a message. Nothing is stored on this site. Book a demo to discuss pricing and early access.
 
 ## Questions and answers
 
@@ -73,7 +73,7 @@ Pricing is set with each fleet. No amount is published on this site.
 
 ### What does early access mean?
 
-RouteRock is in early access with hauling companies. Early access is requested by email through a demo. This site does not list a rate or discount.
+RouteRock is in early access (beta) with hauling companies. Early access is requested by email through a demo. This site does not list a rate or discount.
 
 ### How do I ask about pricing?
 
@@ -91,13 +91,37 @@ Construction hauling software is the system a dump-truck fleet uses to run dirt,
 
 Yes. RouteRock is construction hauling software in early access for dump-truck fleets in all 50 states. Today it covers driver time tracking, digital load tickets, and GPS while the driver is clocked in. It does not yet cover the full path from dispatch through billing.
 
+### Is RouteRock an ELD or hours-of-service log?
+
+No. RouteRock is a trucking time clock and a dump truck ticket app. Clock-in and clock-out times fill in on their own, and drivers cannot edit them. It is not an ELD or an hours-of-service log.
+
+### Does RouteRock need GPS hardware in the truck?
+
+No. Location comes from the driver's phone while the driver is clocked in. GPS runs only during the shift and stops at clock-out.
+
+### Does RouteRock read scale ticket numbers and tonnage?
+
+Not today. The driver photographs the ticket, or picks one from the gallery. Ticket OCR, which auto-reads fields after a ticket photo is uploaded, is coming soon. No launch date is listed.
+
+### How can I track dump truck loads with RouteRock?
+
+Submitted ticket photos stay in a list. The company and the driver can open a photo full screen, and missing-ticket alerts flag a haul that still needs a photo. Dispatch and a live map, geofencing and route history, and profit and operations reporting are coming soon. Arrival times are not included. No launch date is listed.
+
+### Can RouteRock create invoices or export payroll?
+
+Not yet. Customer invoices from haul and ticket activity, and driver payroll with pay periods, exceptions, and CSV or QuickBooks-style export, are coming soon. No launch date is listed.
+
+### Can drivers upload a ticket from the phone's photo gallery?
+
+Yes. The driver can photograph a dump ticket or pick one from the gallery while on shift.
+
 ## Pages
 
 - https://routerockhub.com/ — Dump truck hauling software for fleets
 - https://routerockhub.com/construction-hauling-software.html — Construction hauling software
 - https://routerockhub.com/features.html — Dump truck ticketing app
 - https://routerockhub.com/how-it-works.html — Haul ticket tracking, including the trucking time clock
-- https://routerockhub.com/about.html — Charlotte, NC
+- https://routerockhub.com/about.html — About RouteRock
 - https://routerockhub.com/pricing.html — Pricing
 - https://routerockhub.com/contact.html — Book a demo
 - https://routerockhub.com/privacy.html — Privacy policy, effective October 21, 2026
