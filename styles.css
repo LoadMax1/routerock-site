@@ -113,7 +113,8 @@ h2 {
   font-size: clamp(1.6rem, 2.6vw, 2.15rem);
 }
 
-h2 + .intro + h2 {
+h2 + .intro + h2,
+.pair + h2 {
   margin-top: 2.25rem;
 }
 

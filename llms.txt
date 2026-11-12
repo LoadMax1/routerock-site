@@ -115,6 +115,14 @@ Not yet. Customer invoices from haul and ticket activity, and driver payroll wit
 
 Yes. The driver can photograph a dump ticket or pick one from the gallery while on shift.
 
+### Is RouteRock a time clock app for dump truck drivers?
+
+Yes. RouteRock is a trucking time clock for dump truck drivers. Drivers clock in and out from their phone. Clock-in and clock-out times fill in on their own, and drivers cannot edit them. GPS runs only while the driver is clocked in. Clock events stay in an offline queue on the phone and sync when a connection is available. It is not an ELD or an hours-of-service log.
+
+### What is an electronic dump truck ticket (e-ticket)?
+
+An electronic dump truck ticket (e-ticket) is a digital record of a dump or scale ticket for a haul. In RouteRock today, drivers photograph the paper or scale ticket from the camera, or pick one from the gallery, while on shift. The company sees submitted ticket photos, and missing-ticket alerts flag a haul that still needs a photo. Ticket photos are not queued offline. Ticket OCR, which auto-reads fields after a ticket photo is uploaded, is coming soon. No launch date is listed.
+
 ## Pages
 
 - https://routerockhub.com/ — Dump truck hauling software for fleets
