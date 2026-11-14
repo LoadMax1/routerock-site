@@ -230,6 +230,22 @@
             "@type": "Answer",
             "text": "An electronic dump truck ticket (e-ticket) is a digital record of a dump or scale ticket for a haul. In RouteRock today, drivers photograph the paper or scale ticket from the camera, or pick one from the gallery, while on shift. The company sees submitted ticket photos, and missing-ticket alerts flag a haul that still needs a photo. Ticket photos are not queued offline. Ticket OCR, which auto-reads fields after a ticket photo is uploaded, is coming soon. No launch date is listed."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the biggest challenges dump truck fleets face?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dump truck fleets often lose paper tickets, chase those slips after the shift, dispute driver hours, and have no record of where a truck was during the shift. RouteRock is in early access. Drivers photograph the ticket, clock times fill in and cannot be edited, missing-ticket alerts flag a haul that still needs a photo, and GPS runs only while the driver is clocked in. Dispatch and invoicing are coming soon. Arrival times are not included. No launch date is listed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does RouteRock work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The driver clocks in. Clock-in and clock-out times fill in on their own, and drivers cannot edit them. The driver photographs the ticket, or picks one from the gallery, while on shift. GPS runs only while the driver is clocked in and stops at clock-out. Owners and dispatchers see clock times, ticket photos, and location from while the driver was on shift. Clock events and GPS points stay in an offline queue and sync when a connection is available. Ticket photos are not queued offline. The shift order is on haul ticket tracking."
+          }
         }
       ]
     }
@@ -285,8 +301,65 @@
       </div>
     </section>
 
-    <section class="section band-gray reveal" aria-labelledby="who">
+    <section class="section band-gray reveal" aria-labelledby="compare-heading">
       <div class="wrap">
+        <h2 id="compare-heading">RouteRock vs. paper tickets, spreadsheets, and group texts</h2>
+        <p class="intro">How each part of the haul record is kept today versus in RouteRock. Available now features are in the app today; Coming soon features are on the roadmap.</p>
+        <div class="table-scroll">
+          <table class="compare">
+            <caption class="visually-hidden">RouteRock vs. paper tickets, spreadsheets, and group texts</caption>
+            <thead>
+              <tr>
+                <th scope="col">Haul record</th>
+                <th scope="col">Paper tickets, spreadsheets, and group texts</th>
+                <th scope="col">RouteRock</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Clock-in records</th>
+                <td data-label="Paper, sheets, and texts">Hours written on a ticket, a sheet, or a text. Those times can be disputed later.</td>
+                <td data-label="RouteRock"><span class="tag">Available now</span><span class="cell-copy">Clock-in and clock-out times fill in on their own. Drivers cannot edit them.</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Ticket capture</th>
+                <td data-label="Paper, sheets, and texts">A paper slip that can be lost or damaged.</td>
+                <td data-label="RouteRock"><span class="tag">Available now</span><span class="cell-copy">The driver photographs the ticket, or picks one from the gallery, while on shift.</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Missing-ticket alerts</th>
+                <td data-label="Paper, sheets, and texts">The missing slip shows up when someone looks for it.</td>
+                <td data-label="RouteRock"><span class="tag">Available now</span><span class="cell-copy">Missing-ticket alerts flag a haul that still needs a ticket photo after the threshold.</span></td>
+              </tr>
+              <tr>
+                <th scope="row">GPS while on shift</th>
+                <td data-label="Paper, sheets, and texts">Where the truck was is whatever someone texts or calls in.</td>
+                <td data-label="RouteRock"><span class="tag">Available now</span><span class="cell-copy">Location runs only during the shift and stops at clock-out.</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Offline clock events</th>
+                <td data-label="Paper, sheets, and texts">A note kept until someone can type it into a sheet.</td>
+                <td data-label="RouteRock"><span class="tag">Available now</span><span class="cell-copy">Clock events and GPS points queue and sync when online. Ticket photos are not queued offline.</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Dispatch</th>
+                <td data-label="Paper, sheets, and texts">Jobs passed by text or a phone call.</td>
+                <td data-label="RouteRock"><span class="tag">Coming soon</span><span class="cell-copy">A dispatch board to assign jobs and track status, and live status on active hauls. Arrival times are not included.</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Invoicing</th>
+                <td data-label="Paper, sheets, and texts">Tickets and hours gathered before a bill goes out.</td>
+                <td data-label="RouteRock"><span class="tag">Coming soon</span><span class="cell-copy">Customer invoices from haul and ticket activity. No launch date is listed.</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band-white reveal" aria-labelledby="who">
+      <div class="wrap">
+        <p class="kicker">Who it's for</p>
         <h2 id="who">Who uses RouteRock?</h2>
         <p class="intro">Drivers, owners, and dispatchers at dump-truck fleets. RouteRock is in early access.</p>
         <div class="cards three">
@@ -295,15 +368,18 @@
             <h3>Drivers</h3>
             <ul>
               <li>Clock in and out. Times fill in. Drivers cannot edit them.</li>
-              <li>Photograph the ticket and open it full screen.</li>
+              <li>Photograph the ticket, or pick one from the gallery, and open it full screen.</li>
               <li>Clock events and GPS points queue offline. Ticket photos do not.</li>
+              <li>GPS runs only while clocked in and stops at clock-out.</li>
             </ul>
           </article>
           <article class="card">
             <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V20H4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 20v-6h4v6" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
-            <h3>Owners and dispatchers</h3>
+            <h3>Fleet owners and dispatchers</h3>
             <ul>
-              <li>Owners and dispatchers see clock times, ticket photos, and location from while the driver was on shift.</li>
+              <li>See clock times the driver cannot edit.</li>
+              <li>See submitted ticket photos, and a missing-ticket alert when a haul still needs one.</li>
+              <li>See location from while the driver was on shift. GPS stops at clock-out.</li>
             </ul>
           </article>
           <article class="card">
@@ -318,7 +394,7 @@
       </div>
     </section>
 
-    <section class="section band-white reveal" aria-labelledby="how">
+    <section class="section band-gray reveal" aria-labelledby="how">
       <div class="wrap">
         <h2 id="how">How does a haul get on record?</h2>
         <ol class="steps three">
@@ -339,7 +415,7 @@
       </div>
     </section>
 
-    <section class="section band-gray reveal" aria-labelledby="available">
+    <section class="section band-white reveal" aria-labelledby="available">
       <div class="wrap">
         <h2 id="available">What is available now?</h2>
         <p class="intro">These items are in the product during early access.</p>
@@ -464,6 +540,14 @@
         <details>
           <summary>What is an electronic dump truck ticket (e-ticket)?</summary>
           <p>An electronic dump truck ticket (e-ticket) is a digital record of a dump or scale ticket for a haul. In RouteRock today, drivers photograph the paper or scale ticket from the camera, or pick one from the gallery, while on shift. The company sees submitted ticket photos, and missing-ticket alerts flag a haul that still needs a photo. Ticket photos are not queued offline. Ticket OCR, which auto-reads fields after a ticket photo is uploaded, is coming soon. No launch date is listed.</p>
+        </details>
+        <details>
+          <summary>What are the biggest challenges dump truck fleets face?</summary>
+          <p>Dump truck fleets often lose paper tickets, chase those slips after the shift, dispute driver hours, and have no record of where a truck was during the shift. RouteRock is in early access. Drivers photograph the ticket, clock times fill in and cannot be edited, missing-ticket alerts flag a haul that still needs a photo, and GPS runs only while the driver is clocked in. Dispatch and invoicing are coming soon. Arrival times are not included. No launch date is listed.</p>
+        </details>
+        <details>
+          <summary>How does RouteRock work?</summary>
+          <p>The driver clocks in. Clock-in and clock-out times fill in on their own, and drivers cannot edit them. The driver photographs the ticket, or picks one from the gallery, while on shift. GPS runs only while the driver is clocked in and stops at clock-out. Owners and dispatchers see clock times, ticket photos, and location from while the driver was on shift. Clock events and GPS points stay in an offline queue and sync when a connection is available. Ticket photos are not queued offline. The shift order is on <a href="how-it-works.html">haul ticket tracking</a>.</p>
         </details>
       </div>
       </div>
