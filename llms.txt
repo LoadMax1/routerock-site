@@ -142,10 +142,10 @@ A load cycle in dump truck hauling is one trip that moves material. The truck lo
 ## Pages
 
 - https://routerockhub.com/ — Dump truck hauling software for fleets
-- https://routerockhub.com/construction-hauling-software.html — Construction hauling software
-- https://routerockhub.com/features.html — Dump truck ticketing app
-- https://routerockhub.com/how-it-works.html — Haul ticket tracking, including the trucking time clock
-- https://routerockhub.com/about.html — About RouteRock
+- https://routerockhub.com/construction-hauling-software.html — Construction Hauling Software for Dump Trucks
+- https://routerockhub.com/features.html — Dump truck ticketing app and hauling software
+- https://routerockhub.com/how-it-works.html — How dump truck hauling software works, including the trucking time clock
+- https://routerockhub.com/about.html — About RouteRock, a dump truck ticketing app built by haulers
 - https://routerockhub.com/pricing.html — Pricing
 - https://routerockhub.com/contact.html — Book a demo
 - https://routerockhub.com/privacy.html — Privacy policy, effective October 21, 2026
