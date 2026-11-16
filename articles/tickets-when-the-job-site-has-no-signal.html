@@ -60,10 +60,87 @@
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "iOS, Android",
       "url": "https://routerockhub.com/",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://routerockhub.com/pricing.html"
-      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "description": "1 truck and 1 driver. No GPS.",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://routerockhub.com/pricing.html#free"
+        },
+        {
+          "@type": "Offer",
+          "name": "Core",
+          "description": "Per registered truck per month. $15 billed monthly or $12 per month billed annually. Unlimited users. No setup fee. No contract.",
+          "price": "15.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://routerockhub.com/pricing.html#core",
+          "priceSpecification": [
+            {
+              "@type": "UnitPriceSpecification",
+              "name": "Billed monthly",
+              "price": "15.00",
+              "priceCurrency": "USD",
+              "unitText": "per registered truck per month",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 1,
+                "unitCode": "MON"
+              }
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "name": "Billed annually",
+              "price": "12.00",
+              "priceCurrency": "USD",
+              "unitText": "per registered truck per month",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 1,
+                "unitCode": "MON"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro",
+          "description": "Per registered truck per month. $25 billed monthly or $20 per month billed annually. Adds ticket reading (OCR), dispatch, settlements, and QuickBooks-style export, which are coming soon.",
+          "price": "25.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://routerockhub.com/pricing.html#pro",
+          "priceSpecification": [
+            {
+              "@type": "UnitPriceSpecification",
+              "name": "Billed monthly",
+              "price": "25.00",
+              "priceCurrency": "USD",
+              "unitText": "per registered truck per month",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 1,
+                "unitCode": "MON"
+              }
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "name": "Billed annually",
+              "price": "20.00",
+              "priceCurrency": "USD",
+              "unitText": "per registered truck per month",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 1,
+                "unitCode": "MON"
+              }
+            }
+          ]
+        }
+      ],
       "description": "A dump truck ticketing app and trucking time clock for construction hauling, in early access. Drivers clock in and photograph tickets. Location is shared only while clocked in. An offline queue holds clock events and GPS points. Ticket photos are not queued offline.",
       "featureList": [
         "Driver time tracking",
