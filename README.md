@@ -12,7 +12,7 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | `construction-hauling-software.html` | Construction hauling software for dump-truck fleets |
 | `features.html` | Available now and coming soon. Ticket photos are not queued offline |
 | `how-it-works.html` | Haul ticket tracking and the trucking time clock, including offline |
-| `pricing.html` | Pricing is set per fleet. No rate is published. Primary CTA is Book a demo |
+| `pricing.html` | Published per-truck plans (Free, Core, Pro, Fleet quote), founding offer, pricing FAQ with FAQPage JSON-LD. Pro features are labeled Coming soon. Primary CTA is Book a demo |
 | `about.html` | Built in Charlotte, NC, for fleets nationwide |
 | `charlotte-nc.html` | Dump truck ticketing app Charlotte NC |
 | `articles/index.html` | Dump truck hauling articles, plus four posts |

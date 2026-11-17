@@ -2,7 +2,7 @@
 
 > RouteRock is construction hauling software in early access (beta) for dump-truck fleets in all 50 states. It was built inside a working dump-truck company in the Charlotte, NC area.
 
-RouteRock runs on iPhone and Android during early access. It is not a public App Store or Google Play release. This site lists no price. There are no published ratings, rankings, or customer counts. Pricing is set with each fleet. The primary action on this site is Book a demo.
+RouteRock runs on iPhone and Android during early access. It is not a public App Store or Google Play release. Prices are published per registered truck per month (see Pricing below). There are no published ratings, rankings, or customer counts. The primary action on this site is Book a demo.
 
 ## Available now
 
@@ -29,9 +29,22 @@ No launch date is listed.
 
 Dump truck dispatch is not available yet. Today the company sees clock times, ticket photos, and location from while the driver was on shift. Ticket photos are not queued offline, and that limit is not listed as a coming-soon item.
 
+## Pricing
+
+Prices are in US dollars, per registered truck per month. A registered truck is a truck on the company's roster in the company portal. Details: https://routerockhub.com/pricing.html
+
+- Free — $0. 1 truck and 1 driver. Time clock, ticket photos, ticket history, missing-ticket alerts, offline queue for clock events, company portal. No GPS.
+- Core — $15 per truck per month, or $12 per truck per month billed annually. Everything available now, including GPS while clocked in and the offline queue for clock events and GPS points. Unlimited users. No truck minimum.
+- Pro — $25 per truck per month, or $20 per truck per month billed annually. Adds ticket reading (OCR), a dispatch board, driver settlements and payroll, and QuickBooks-style export. All of these Pro additions are Coming soon with no launch date listed. Pro is not sold until they ship; everything available today is in Core.
+- Fleet — 26 or more trucks, priced by quote.
+- No setup fee. No contract. Unlimited users on paid plans. Annual billing is 20% off.
+- Founding fleet offer — The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months ($11.25 Core and $18.75 Pro per truck per month on monthly billing). It does not combine with the annual discount.
+
+RouteRock is not an ELD and needs no in-cab hardware. It runs on the drivers' phones.
+
 ## Demo
 
-Book a demo is the only call to action. A demo is about 15 minutes. It covers the driver flow and what the company can see today, and it distinguishes available features from items marked Coming soon. The contact page Book a demo button opens an email to demo@routerockhub.com with the subject "RouteRock demo request" and a body template for name, company, email, phone, trucks in fleet, and a message. Nothing is stored on this site. Book a demo to discuss pricing and early access.
+Book a demo is the only call to action. A demo is about 15 minutes. It covers the driver flow and what the company can see today, and it distinguishes available features from items marked Coming soon. The contact page Book a demo button opens an email to demo@routerockhub.com with the subject "RouteRock demo request" and a body template for name, company, email, phone, trucks in fleet, and a message. Nothing is stored on this site. Book a demo to get started on any plan or to request a Fleet quote.
 
 ## Questions and answers
 
@@ -67,17 +80,25 @@ Not yet. Dispatch and a live fleet map, ticket OCR, geofencing and route history
 
 RouteRock runs on iPhone and Android during early access. It is not a public App Store or Google Play release.
 
-### Is there a price?
+### How much does RouteRock cost?
 
-Pricing is set with each fleet. No amount is published on this site.
+RouteRock is priced per registered truck per month. Free covers 1 truck and 1 driver. Core is $15 per truck per month, or $12 billed annually. Pro is $25 per truck per month, or $20 billed annually. Fleets with 26 or more trucks get a quote. There is no setup fee and no contract, and paid plans include unlimited users.
+
+### Are the Pro features available today?
+
+Not yet. Ticket reading (OCR), the dispatch board, driver settlements, and QuickBooks-style export are Coming soon, with no launch date listed. Pro is not sold until they ship. Everything available today is in Core.
+
+### What is the founding fleet offer?
+
+The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months. It does not combine with the 20% annual discount.
 
 ### What does early access mean?
 
-RouteRock is in early access (beta) with hauling companies. Early access is requested by email through a demo. This site does not list a rate or discount.
+RouteRock is in early access (beta) with hauling companies. Features are labeled Available now or Coming soon. Book a demo to get started.
 
-### How do I ask about pricing?
+### How do I get started?
 
-Book a demo to discuss pricing and early access. The email goes to demo@routerockhub.com.
+Book a demo. The email goes to demo@routerockhub.com.
 
 ### Who is RouteRock for?
 
@@ -146,7 +167,7 @@ A load cycle in dump truck hauling is one trip that moves material. The truck lo
 - https://routerockhub.com/features.html — Dump truck ticketing app and hauling software
 - https://routerockhub.com/how-it-works.html — How dump truck hauling software works, including the trucking time clock
 - https://routerockhub.com/about.html — About RouteRock, a dump truck ticketing app built by haulers
-- https://routerockhub.com/pricing.html — Pricing
+- https://routerockhub.com/pricing.html — Dump truck ticketing software pricing: Free, Core, Pro, and Fleet plans per truck
 - https://routerockhub.com/contact.html — Book a demo
 - https://routerockhub.com/privacy.html — Privacy policy, effective October 21, 2026
 - https://routerockhub.com/terms.html — Terms of service, effective October 22, 2026. Subject to review.

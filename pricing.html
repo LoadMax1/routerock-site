@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dump truck ticketing software pricing | RouteRock</title>
-  <meta name="description" content="RouteRock pricing for dump truck fleets is set with each company. No rate is published on this site. Book a demo to discuss pricing and early access.">
+  <meta name="description" content="RouteRock pricing for dump truck fleets: Free for 1 truck, Core $15 and Pro $25 per truck per month, 20% off billed annually. No setup fee, no contract. Book a demo.">
   <link rel="canonical" href="https://routerockhub.com/pricing.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="RouteRock">
   <meta property="og:title" content="Dump truck ticketing software pricing | RouteRock">
-  <meta property="og:description" content="RouteRock pricing for dump truck fleets is set with each company. No rate is published on this site. Book a demo to discuss pricing and early access.">
+  <meta property="og:description" content="RouteRock pricing for dump truck fleets: Free for 1 truck, Core $15 and Pro $25 per truck per month, 20% off billed annually. No setup fee, no contract. Book a demo.">
   <meta property="og:url" content="https://routerockhub.com/pricing.html">
   <meta property="og:image" content="https://routerockhub.com/assets/brand/main-final.jpg">
   <meta property="og:image:alt" content="RouteRock logo, a navy stone with a white RR mark and the RouteRock wordmark">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Dump truck ticketing software pricing | RouteRock">
-  <meta name="twitter:description" content="RouteRock pricing for dump truck fleets is set with each company. No rate is published on this site. Book a demo to discuss pricing and early access.">
+  <meta name="twitter:description" content="RouteRock pricing for dump truck fleets: Free for 1 truck, Core $15 and Pro $25 per truck per month, 20% off billed annually. No setup fee, no contract. Book a demo.">
   <meta name="twitter:image" content="https://routerockhub.com/assets/brand/main-final.jpg">
   <link rel="preload" href="assets/fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/montserrat-800.woff2" as="font" type="font/woff2" crossorigin>
@@ -60,10 +60,87 @@
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "iOS, Android",
       "url": "https://routerockhub.com/",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://routerockhub.com/pricing.html"
-      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "description": "1 truck and 1 driver. No GPS.",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://routerockhub.com/pricing.html#free"
+        },
+        {
+          "@type": "Offer",
+          "name": "Core",
+          "description": "Per registered truck per month. $15 billed monthly or $12 per month billed annually. Unlimited users. No setup fee. No contract.",
+          "price": "15.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://routerockhub.com/pricing.html#core",
+          "priceSpecification": [
+            {
+              "@type": "UnitPriceSpecification",
+              "name": "Billed monthly",
+              "price": "15.00",
+              "priceCurrency": "USD",
+              "unitText": "per registered truck per month",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 1,
+                "unitCode": "MON"
+              }
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "name": "Billed annually",
+              "price": "12.00",
+              "priceCurrency": "USD",
+              "unitText": "per registered truck per month",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 1,
+                "unitCode": "MON"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro",
+          "description": "Per registered truck per month. $25 billed monthly or $20 per month billed annually. Adds ticket reading (OCR), dispatch, settlements, and QuickBooks-style export, which are coming soon.",
+          "price": "25.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://routerockhub.com/pricing.html#pro",
+          "priceSpecification": [
+            {
+              "@type": "UnitPriceSpecification",
+              "name": "Billed monthly",
+              "price": "25.00",
+              "priceCurrency": "USD",
+              "unitText": "per registered truck per month",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 1,
+                "unitCode": "MON"
+              }
+            },
+            {
+              "@type": "UnitPriceSpecification",
+              "name": "Billed annually",
+              "price": "20.00",
+              "priceCurrency": "USD",
+              "unitText": "per registered truck per month",
+              "referenceQuantity": {
+                "@type": "QuantitativeValue",
+                "value": 1,
+                "unitCode": "MON"
+              }
+            }
+          ]
+        }
+      ],
       "description": "A dump truck ticketing app and trucking time clock for construction hauling, in early access. Drivers clock in and photograph tickets. Location is shared only while clocked in. An offline queue holds clock events and GPS points. Ticket photos are not queued offline.",
       "featureList": [
         "Driver time tracking",
@@ -111,26 +188,98 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Is there a price?",
+          "name": "How much does RouteRock cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pricing is set with each fleet. No amount is published on this site."
+            "text": "RouteRock is priced per registered truck per month. Free covers 1 truck and 1 driver. Core is $15 per truck per month, or $12 per truck per month billed annually. Pro is $25 per truck per month, or $20 per truck per month billed annually. Fleets with 26 or more trucks get a Fleet quote. Prices are in US dollars."
           }
         },
         {
           "@type": "Question",
-          "name": "What does early access mean?",
+          "name": "Is there a free plan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "RouteRock is in early access. Early access is requested by email. This page does not list a rate or discount."
+            "text": "Yes. The Free plan covers 1 truck and 1 driver. It includes the time clock, ticket photos, ticket history, and missing-ticket alerts. GPS is not included on Free."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I ask about pricing?",
+          "name": "What counts as a truck?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Book a demo to discuss pricing and early access. The email goes to demo@routerockhub.com."
+            "text": "A registered truck is a truck on your company's truck roster in the RouteRock company portal. Paid plans are billed for each registered truck."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there setup fees, contracts, or per-user charges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. There is no setup fee and no contract. Core and Pro include unlimited users, so owners, dispatchers, office staff, and drivers do not add cost. The price is set by the number of registered trucks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do I save by paying annually?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Annual billing is 20% off the monthly price: Core is $12 per truck per month and Pro is $20 per truck per month when billed annually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the founding fleet offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first 10 fleets to sign up for a paid plan get 25% off for their first 12 months, and that discounted price is locked for 24 months. On monthly billing that is $11.25 per truck per month for Core and $18.75 per truck per month for Pro. The founding offer does not combine with the 20% annual discount."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the Pro features available today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not yet. Ticket reading (OCR), the dispatch board, driver settlements, and QuickBooks-style export are Coming soon, and no launch date is listed. Pro is not sold until those features ship. Everything available today is included in Core."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in Core today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core includes everything available now: driver time tracking with clock times drivers cannot edit, digital load tickets, ticket history, missing-ticket alerts, GPS while clocked in, an offline queue for clock events and GPS points, company visibility, and the company portal for trucks and sub-haulers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does RouteRock work without cell signal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clock events and GPS points queue on the phone and sync when a connection is available. Ticket photos are not queued offline. A connection is needed to send a ticket photo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is RouteRock an ELD? Do I need extra hardware?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RouteRock is not an ELD and does not do FMCSA electronic logging. It runs on the drivers' iPhone or Android phones, and GPS comes from the phone while the driver is clocked in. No in-cab hardware is included or required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is a fleet with 26 or more trucks priced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fleets with 26 or more trucks are priced by quote on the Fleet plan. Book a demo to get a Fleet quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get started?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Book a demo. A demo is about 15 minutes. It covers the driver flow, what the company can see today, and which features are Coming soon. The request goes to demo@routerockhub.com."
           }
         }
       ]
@@ -161,44 +310,143 @@
   <main id="content">
     <section class="section band-white">
       <div class="wrap page-intro">
-        <h1>Pricing</h1>
-        <p class="lede">Pricing is set with each fleet. No rate is published on this site.</p>
+        <h1>Dump truck ticketing software pricing</h1>
+        <p class="lede">RouteRock is priced per registered truck per month. Start with 1 truck free. No setup fee, no contract, and unlimited users on paid plans.</p>
+        <p>Annual billing saves 20%. Prices are in US dollars. RouteRock is in early access with hauling companies, and every feature below is labeled Available now or Coming soon.</p>
         <p><a class="button button-lg" href="contact.html#demo">Book a demo</a></p>
       </div>
     </section>
-    <section class="section band-gray">
+    <section class="section band-gray" aria-labelledby="plans-heading">
       <div class="wrap">
-      <div class="pricing-layout">
-        <article class="price-card reveal">
-          <h2>Early access</h2>
-          <p>Early access (beta) is available for hauling companies. Pricing is set per fleet. This page does not list a rate or discount.</p>
-          <a class="button" href="contact.html#demo">Book a demo</a>
-        </article>
-        <div class="reveal">
-          <h2>How RouteRock pricing works</h2>
-          <div class="faq">
-        <details>
-          <summary>Is there a price?</summary>
-          <p>Pricing is set with each fleet. No amount is published on this site.</p>
-        </details>
-        <details>
-          <summary>What does early access mean?</summary>
-          <p>RouteRock is in early access. Early access is requested by email. This page does not list a rate or discount.</p>
-        </details>
-        <details>
-          <summary>How do I ask about pricing?</summary>
-          <p><a href="contact.html#demo">Book a demo</a> to discuss pricing and early access. The email goes to <a href="mailto:demo@routerockhub.com">demo@routerockhub.com</a>.</p>
-        </details>
+        <h2 id="plans-heading">Plans</h2>
+        <div class="price-grid">
+          <article class="price-card price-tier reveal" id="free" aria-labelledby="free-name">
+            <h3 id="free-name">Free</h3>
+            <p class="price"><span class="amount">$0</span></p>
+            <p class="price-sub">1 truck and 1 driver</p>
+            <ul class="tier-features">
+              <li><span class="tag">Available now</span>Driver time tracking. Clock times fill in on their own, and drivers cannot edit them</li>
+              <li><span class="tag">Available now</span>Digital load tickets from the camera or gallery</li>
+              <li><span class="tag">Available now</span>Ticket history for the company and the driver</li>
+              <li><span class="tag">Available now</span>Missing-ticket alerts</li>
+              <li><span class="tag">Available now</span>Offline queue for clock events</li>
+              <li><span class="tag">Available now</span>Company portal for trucks and sub-haulers</li>
+              <li>GPS is not included</li>
+            </ul>
+            <a class="button" href="contact.html#demo">Book a demo</a>
+          </article>
+          <article class="price-card price-tier reveal" id="core" aria-labelledby="core-name">
+            <h3 id="core-name">Core</h3>
+            <p class="price"><span class="amount">$15</span> per truck / month</p>
+            <p class="price-sub">$12 per truck / month billed annually</p>
+            <ul class="tier-features">
+              <li>Everything in Free, plus:</li>
+              <li><span class="tag">Available now</span>GPS while clocked in. It stops at clock-out</li>
+              <li><span class="tag">Available now</span>Offline queue for clock events and GPS points</li>
+              <li><span class="tag">Available now</span>Company visibility of clock times, ticket photos, and on-shift location</li>
+              <li>Unlimited users, no truck minimum</li>
+            </ul>
+            <a class="button" href="contact.html#demo">Book a demo</a>
+          </article>
+          <article class="price-card price-tier price-tier-soon reveal" id="pro" aria-labelledby="pro-name">
+            <h3 id="pro-name">Pro <span class="tag tag-soon">Coming soon</span></h3>
+            <p class="price"><span class="amount">$25</span> per truck / month</p>
+            <p class="price-sub">$20 per truck / month billed annually</p>
+            <p class="tier-notice"><strong>Pro is not sold yet.</strong> Its added features are Coming soon, with no launch date listed. Pro opens when they ship. Until then, everything available today is in Core.</p>
+            <ul class="tier-features">
+              <li>Everything in Core, plus:</li>
+              <li><span class="tag tag-soon">Coming soon</span>Ticket reading (OCR) that fills in ticket fields after upload</li>
+              <li><span class="tag tag-soon">Coming soon</span>Dispatch board to assign jobs and track status</li>
+              <li><span class="tag tag-soon">Coming soon</span>Driver settlements and payroll</li>
+              <li><span class="tag tag-soon">Coming soon</span>QuickBooks-style export</li>
+            </ul>
+            <a class="button" href="contact.html#demo">Book a demo</a>
+          </article>
+          <article class="price-card price-tier reveal" id="fleet" aria-labelledby="fleet-name">
+            <h3 id="fleet-name">Fleet</h3>
+            <p class="price"><span class="amount">Quote</span></p>
+            <p class="price-sub">26 or more trucks</p>
+            <ul class="tier-features">
+              <li>Everything in Pro, for 26 or more trucks</li>
+              <li>Volume pricing by quote</li>
+              <li>Unlimited users</li>
+            </ul>
+            <a class="button" href="contact.html#demo">Book a demo</a>
+          </article>
+        </div>
+        <p class="price-footnote">Every paid plan: no setup fee, no contract, unlimited users. Billed per registered truck, meaning each truck on your roster in the company portal.</p>
       </div>
+    </section>
+    <section class="section band-white" aria-labelledby="founding-heading">
+      <div class="wrap">
+        <div class="price-card founding-card reveal" id="founding">
+          <h2 id="founding-heading">Founding fleet offer</h2>
+          <p class="lede">The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months.</p>
+          <p>On monthly billing, that is $11.25 per truck per month for Core and $18.75 per truck per month for Pro. The founding offer does not combine with the 20% annual discount.</p>
+          <a class="button" href="contact.html#demo">Book a demo</a>
         </div>
       </div>
+    </section>
+    <section class="section band-gray" aria-labelledby="faq-heading">
+      <div class="wrap">
+        <h2 id="faq-heading">RouteRock pricing questions</h2>
+        <div class="faq">
+        <details>
+          <summary>How much does RouteRock cost?</summary>
+          <p>RouteRock is priced per registered truck per month. Free covers 1 truck and 1 driver. Core is $15 per truck per month, or $12 per truck per month billed annually. Pro is $25 per truck per month, or $20 per truck per month billed annually. Fleets with 26 or more trucks get a Fleet quote. Prices are in US dollars.</p>
+        </details>
+        <details>
+          <summary>Is there a free plan?</summary>
+          <p>Yes. The Free plan covers 1 truck and 1 driver. It includes the time clock, ticket photos, ticket history, and missing-ticket alerts. GPS is not included on Free.</p>
+        </details>
+        <details>
+          <summary>What counts as a truck?</summary>
+          <p>A registered truck is a truck on your company's truck roster in the RouteRock company portal. Paid plans are billed for each registered truck.</p>
+        </details>
+        <details>
+          <summary>Are there setup fees, contracts, or per-user charges?</summary>
+          <p>No. There is no setup fee and no contract. Core and Pro include unlimited users, so owners, dispatchers, office staff, and drivers do not add cost. The price is set by the number of registered trucks.</p>
+        </details>
+        <details>
+          <summary>How much do I save by paying annually?</summary>
+          <p>Annual billing is 20% off the monthly price: Core is $12 per truck per month and Pro is $20 per truck per month when billed annually.</p>
+        </details>
+        <details>
+          <summary>What is the founding fleet offer?</summary>
+          <p>The first 10 fleets to sign up for a paid plan get 25% off for their first 12 months, and that discounted price is locked for 24 months. On monthly billing that is $11.25 per truck per month for Core and $18.75 per truck per month for Pro. The founding offer does not combine with the 20% annual discount.</p>
+        </details>
+        <details>
+          <summary>Are the Pro features available today?</summary>
+          <p>Not yet. Ticket reading (OCR), the dispatch board, driver settlements, and QuickBooks-style export are Coming soon, and no launch date is listed. Pro is not sold until those features ship. Everything available today is included in Core.</p>
+        </details>
+        <details>
+          <summary>What is included in Core today?</summary>
+          <p>Core includes everything available now: driver time tracking with clock times drivers cannot edit, digital load tickets, ticket history, missing-ticket alerts, GPS while clocked in, an offline queue for clock events and GPS points, company visibility, and the company portal for trucks and sub-haulers. See <a href="features.html">features</a>.</p>
+        </details>
+        <details>
+          <summary>Does RouteRock work without cell signal?</summary>
+          <p>Clock events and GPS points queue on the phone and sync when a connection is available. Ticket photos are not queued offline. A connection is needed to send a ticket photo. Read <a href="articles/tickets-when-the-job-site-has-no-signal.html">running tickets when the job site has no signal</a>.</p>
+        </details>
+        <details>
+          <summary>Is RouteRock an ELD? Do I need extra hardware?</summary>
+          <p>RouteRock is not an ELD and does not do FMCSA electronic logging. It runs on the drivers' iPhone or Android phones, and GPS comes from the phone while the driver is clocked in. No in-cab hardware is included or required.</p>
+        </details>
+        <details>
+          <summary>How is a fleet with 26 or more trucks priced?</summary>
+          <p>Fleets with 26 or more trucks are priced by quote on the Fleet plan. <a href="contact.html#demo">Book a demo</a> to get a Fleet quote.</p>
+        </details>
+        <details>
+          <summary>How do I get started?</summary>
+          <p><a href="contact.html#demo">Book a demo</a>. A demo is about 15 minutes. It covers the driver flow, what the company can see today, and which features are Coming soon. The request goes to <a href="mailto:demo@routerockhub.com">demo@routerockhub.com</a>.</p>
+        </details>
+        </div>
       </div>
     </section>
   </main>
   <section class="cta-band road" aria-labelledby="demo-close">
     <div class="wrap">
       <h2 id="demo-close">Book a demo</h2>
-      <p>Book a demo to discuss pricing and early access.</p>
+      <p>See the driver flow and what the company sees today in about 15 minutes, and find the right plan for your trucks.</p>
       <p><a class="button button-lg" href="contact.html#demo">Book a demo</a></p>
     </div>
   </section>
