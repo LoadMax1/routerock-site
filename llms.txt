@@ -38,7 +38,7 @@ Prices are in US dollars, per registered truck per month. A registered truck is 
 - Pro — $25 per truck per month, or $20 per truck per month billed annually. Adds ticket reading (OCR), a dispatch board, driver settlements and payroll, and QuickBooks-style export. All of these Pro additions are Coming soon with no launch date listed. Pro is not sold until they ship; everything available today is in Core.
 - Fleet — 26 or more trucks, priced by quote.
 - No setup fee. No contract. Unlimited users on paid plans. Annual billing is 20% off.
-- Founding fleet offer — The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months ($11.25 Core and $18.75 Pro per truck per month on monthly billing). It does not combine with the annual discount.
+- Founding fleet offer — The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months. On monthly billing, Core is $11.25 per truck per month. It does not combine with the annual discount. Details: https://routerockhub.com/founding-fleet.html
 
 RouteRock is not an ELD and needs no in-cab hardware. It runs on the drivers' phones.
 
@@ -90,7 +90,7 @@ Not yet. Ticket reading (OCR), the dispatch board, driver settlements, and Quick
 
 ### What is the founding fleet offer?
 
-The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months. It does not combine with the 20% annual discount.
+The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months. On monthly billing, Core is $11.25 per truck per month. It does not combine with the 20% annual discount.
 
 ### What does early access mean?
 
@@ -168,12 +168,13 @@ A load cycle in dump truck hauling is one trip that moves material. The truck lo
 - https://routerockhub.com/how-it-works.html — How dump truck hauling software works, including the trucking time clock
 - https://routerockhub.com/about.html — About RouteRock, a dump truck ticketing app built by haulers
 - https://routerockhub.com/pricing.html — Dump truck ticketing software pricing: Free, Core, Pro, and Fleet plans per truck
+- https://routerockhub.com/founding-fleet.html — Founding fleet offer: 25% off Core for the first 10 fleets on a paid plan
+- https://routerockhub.com/faq.html — Frequently asked questions
 - https://routerockhub.com/contact.html — Book a demo
 - https://routerockhub.com/privacy.html — Privacy policy, effective October 21, 2026
 - https://routerockhub.com/terms.html — Terms of service, effective October 22, 2026. Subject to review.
 - https://routerockhub.com/support.html — Support
 - https://routerockhub.com/delete-account.html — Delete an account
-- https://routerockhub.com/brand.html — Logo, colors, and type
 - https://routerockhub.com/articles/ — Dump truck hauling guides
 - https://routerockhub.com/articles/how-to-stop-losing-dump-truck-tickets.html — How to stop losing dump truck tickets
 - https://routerockhub.com/articles/paper-tickets-vs-digital-ticketing.html — Paper tickets vs digital ticketing for dump trucks

@@ -65,6 +65,7 @@
 html {
   color-scheme: light;
   scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
 }
 
 body {
@@ -192,6 +193,11 @@ a:hover {
   background: var(--color-navy);
   color: var(--color-white);
   box-shadow: inset 0 -2px 0 var(--color-orange);
+  transition: box-shadow 0.2s ease;
+}
+
+.site-header.is-scrolled {
+  box-shadow: 0 10px 28px rgba(8, 12, 22, 0.28), inset 0 -2px 0 var(--color-orange);
 }
 
 .header-inner {
@@ -1562,7 +1568,13 @@ html.can-reveal .reveal.is-in {
 
   .signal i,
   .road-dash,
-  html.can-reveal .reveal {
+  html.can-reveal .reveal,
+  .faq-panel,
+  .tab-panel,
+  .card,
+  .steps li,
+  .price-tier,
+  .site-header {
     animation: none;
     opacity: 1;
     transform: none;
@@ -1710,5 +1722,286 @@ html.can-reveal .reveal.is-in {
 @media (min-width: 1100px) {
   .price-grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Motion, photography, FAQ, and the founding-fleet banner. */
+.faq-panel {
+  overflow: hidden;
+  transition: height 0.28s ease;
+}
+
+.faq summary:hover {
+  color: var(--color-orange-hover);
+}
+
+.faq-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+}
+
+.faq-jump a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-white);
+  color: var(--color-navy);
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+
+.faq-jump a:hover {
+  border-color: var(--color-orange);
+  background: var(--color-bg);
+}
+
+.faq-section + .faq-section {
+  margin-top: 2.5rem;
+}
+
+.faq-pointer {
+  margin-top: 0.25rem;
+  font-size: 1.05rem;
+}
+
+.photo-break {
+  margin: 0;
+  background: var(--color-navy);
+}
+
+.photo-break img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 640px;
+  object-fit: cover;
+  object-position: center 62%;
+}
+
+.photo-break figcaption,
+.inline-photo figcaption {
+  margin: 0;
+  padding: 0.55rem 1rem 0.7rem;
+  color: var(--color-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.photo-break figcaption {
+  background: var(--color-white);
+}
+
+.inline-photo {
+  margin: 1.2rem 0 0;
+}
+
+.inline-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.split-photo {
+  display: grid;
+  gap: 1.4rem;
+  align-items: center;
+}
+
+.split-photo .inline-photo {
+  margin: 0;
+}
+
+.page-photo {
+  margin: 1.4rem 0 0;
+}
+
+.page-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.page-photo figcaption {
+  margin-top: 0.45rem;
+  color: var(--color-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+@media (hover: hover) {
+  .card,
+  .steps li,
+  .price-tier {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .card:hover,
+  .steps li:hover,
+  .price-tier:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-orange);
+    box-shadow: 0 16px 34px rgba(22, 32, 48, 0.1);
+  }
+}
+
+.feature-tabs {
+  margin-top: 1.3rem;
+}
+
+.tablist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tab {
+  min-height: 44px;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-white);
+  color: var(--color-navy);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tab:hover {
+  border-color: var(--color-orange);
+}
+
+.tab[aria-selected="true"] {
+  background: var(--color-navy);
+  border-color: var(--color-navy);
+  color: var(--color-white);
+}
+
+.tab-panel {
+  display: grid;
+  gap: 1.25rem;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1.1rem;
+  border: 1px solid var(--color-line);
+  border-radius: 18px;
+  background: var(--color-white);
+}
+
+.tab-panel h3 {
+  font-size: 1.25rem;
+}
+
+.tab-panel p {
+  margin-top: 0.45rem;
+  color: var(--color-muted);
+}
+
+.tab-panel[hidden] {
+  display: none;
+}
+
+.offer-banner {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: min(100% - 1.5rem, 46rem);
+  margin: 0.85rem auto 0;
+  padding: 0.7rem 0.7rem 0.7rem 1rem;
+  border: 1px solid var(--color-line);
+  border-left: 5px solid var(--color-orange);
+  border-radius: 14px;
+  background: var(--color-white);
+  box-shadow: 0 12px 32px rgba(22, 32, 48, 0.14);
+  color: var(--color-navy);
+}
+
+.offer-banner-copy {
+  margin: 0;
+  flex: 1;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.offer-banner-copy a {
+  color: var(--color-navy);
+  font-weight: 800;
+  text-decoration-color: var(--color-orange);
+}
+
+.offer-dismiss {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--color-bg);
+  color: var(--color-navy);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.offer-dismiss:hover {
+  background: var(--color-navy);
+  color: var(--color-white);
+}
+
+html.offer-dismissed .offer-banner {
+  display: none;
+}
+
+@media (min-width: 860px) {
+  .offer-banner {
+    position: fixed;
+    left: 1rem;
+    right: auto;
+    bottom: 1rem;
+    width: min(34rem, calc(100% - 24rem));
+    margin: 0;
+  }
+
+  body.has-offer-banner {
+    padding-bottom: 6.5rem;
+  }
+
+  .split-photo {
+    grid-template-columns: minmax(0, 1.15fr) minmax(240px, 0.85fr);
+  }
+
+  .tab-panel {
+    grid-template-columns: minmax(0, 1fr) 280px;
+  }
+
+  .tab-panel .phone {
+    margin-right: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-panel,
+  .card,
+  .steps li,
+  .price-tier,
+  .site-header,
+  .tab-panel {
+    transition: none;
+  }
+}
+
+@media print {
+  .offer-banner,
+  .faq-jump {
+    display: none;
   }
 }
