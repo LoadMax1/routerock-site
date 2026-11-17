@@ -12,7 +12,7 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | `construction-hauling-software.html` | Construction hauling software for dump-truck fleets |
 | `features.html` | Available now and coming soon. Ticket photos are not queued offline |
 | `how-it-works.html` | Haul ticket tracking and the trucking time clock, including offline |
-| `pricing.html` | Published per-truck plans (Free, Core, Pro, Fleet quote), founding offer, pricing FAQ with FAQPage JSON-LD. Pro features are labeled Coming soon. Primary CTA is Book a demo |
+| `pricing.html` | Published per-truck plans (Free, Core, Pro, Fleet quote) and a short founding-offer summary. Pro features are labeled Coming soon. Primary CTA is Book a demo |
 | `about.html` | Built in Charlotte, NC, for fleets nationwide |
 | `charlotte-nc.html` | Dump truck ticketing app Charlotte NC |
 | `articles/index.html` | Dump truck hauling articles, plus four posts |
@@ -20,11 +20,12 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | `contact.html` | Demo page. About 15 minutes. Book a demo opens a mailto to demo@routerockhub.com with a subject and body template. Nothing is stored on this site |
 | `privacy.html` | Privacy policy for the mobile app. Keep this URL stable. |
 | `terms.html` | Terms of service for the app and site. Subject to review. Effective October 22, 2026. |
-| `support.html` | How to get help, and a short FAQ |
+| `support.html` | How to get help. Questions live on `faq.html` |
 | `delete-account.html` | How to request account and data deletion |
-| `brand.html` | Logo files, colors, and type. Linked from the footer. |
+| `faq.html` | Every FAQ question on the site, grouped, with one FAQPage JSON-LD block |
+| `founding-fleet.html` | Founding fleet offer for Core. Book a demo is the CTA |
 
-The header links Features, How it works, Pricing, About, and Articles, plus a Book a demo button that opens `contact.html`. On a narrow screen the links sit behind a menu button. The footer also links Construction hauling software, Articles, Charlotte, NC, Privacy, Terms, Support, Delete account, and Brand. Styles live in `styles.css`. `site.js` fades sections in on scroll and closes the menu with Escape. Pages include JSON-LD for the organization, the app, breadcrumbs, and the FAQ blocks. `llms.txt` is a plain-language summary. Logo files are in `assets/brand/`. `sitemap.xml` and `robots.txt` are at the repository root.
+The header links Features, How it works, Construction hauling, Pricing, FAQ, About, and Articles, plus a Book a demo button that opens `contact.html`. On a narrow screen the links sit behind a menu button. The footer also links Construction hauling software, Articles, Founding fleet, Charlotte, NC, FAQ, Privacy, Terms, Support, and Delete account. Styles live in `styles.css`. `site.js` fades sections in on scroll and closes the menu with Escape. Pages include JSON-LD for the organization, the app, and breadcrumbs. The FAQPage block is only on `faq.html`. `llms.txt` is a plain-language summary. Logo files are in `assets/brand/`. `sitemap.xml` and `robots.txt` are at the repository root.
 
 ## Preview locally
 
@@ -54,7 +55,7 @@ Colors are CSS variables at the top of `styles.css`.
 | Light Gray | `#F4F5F7` | Background |
 | White | `#FFFFFF` | Surfaces |
 
-The typeface is Montserrat, self-hosted as latin WOFF2 files in `assets/fonts/` with `font-display: swap`. The screen logo is `assets/brand/logo-horizontal.svg`. See `brand.html` for the files and notes.
+The typeface is Montserrat, self-hosted as latin WOFF2 files in `assets/fonts/` with `font-display: swap`. The screen logo is `assets/brand/logo-horizontal.svg`. Logo files stay in `assets/brand/`. Photo credits are in `assets/photos/README.md`.
 
 ## Contact
 
