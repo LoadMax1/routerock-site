@@ -909,19 +909,6 @@ a:hover {
   align-items: center;
 }
 
-.phone figcaption {
-  margin-top: 0.55rem;
-  color: var(--color-muted);
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-align: center;
-}
-
-.hero .phone figcaption,
-.band-navy .phone figcaption {
-  color: rgba(255, 255, 255, 0.82);
-}
-
 .page-intro {
   padding: 0;
 }
@@ -1783,19 +1770,6 @@ html.can-reveal .reveal.is-in {
   object-position: center 62%;
 }
 
-.photo-break figcaption,
-.inline-photo figcaption {
-  margin: 0;
-  padding: 0.55rem 1rem 0.7rem;
-  color: var(--color-muted);
-  font-size: 0.82rem;
-  font-weight: 600;
-}
-
-.photo-break figcaption {
-  background: var(--color-white);
-}
-
 .inline-photo {
   margin: 1.2rem 0 0;
 }
@@ -1828,13 +1802,6 @@ html.can-reveal .reveal.is-in {
   height: auto;
   border-radius: 18px;
   object-fit: cover;
-}
-
-.page-photo figcaption {
-  margin-top: 0.45rem;
-  color: var(--color-muted);
-  font-size: 0.82rem;
-  font-weight: 600;
 }
 
 @media (hover: hover) {
