@@ -38,7 +38,7 @@ Prices are in US dollars, per registered truck per month. A registered truck is 
 - Pro — $25 per truck per month, or $20 per truck per month billed annually. Adds ticket reading (OCR), a dispatch board, driver settlements and payroll, and QuickBooks-style export. All of these Pro additions are Coming soon with no launch date listed. Pro is not sold until they ship; everything available today is in Core.
 - Fleet — 26 or more trucks, priced by quote.
 - No setup fee. No contract. Unlimited users on paid plans. Annual billing is 20% off.
-- Founding fleet offer — The first 10 fleets on a paid plan get 25% off for 12 months, with the price locked for 24 months ($11.25 Core and $18.75 Pro per truck per month on monthly billing). It does not combine with the annual discount.
+- Founding fleet offer — The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months ($11.25 Core and $18.75 Pro per truck per month on monthly billing). It does not combine with the annual discount.
 
 RouteRock is not an ELD and needs no in-cab hardware. It runs on the drivers' phones.
 
@@ -90,7 +90,7 @@ Not yet. Ticket reading (OCR), the dispatch board, driver settlements, and Quick
 
 ### What is the founding fleet offer?
 
-The first 10 fleets on a paid plan get 25% off for 12 months, with the price locked for 24 months. It does not combine with the 20% annual discount.
+The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months. It does not combine with the 20% annual discount.
 
 ### What does early access mean?
 
