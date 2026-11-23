@@ -104,6 +104,10 @@ Book a demo. The email goes to demo@routerockhub.com.
 
 Owners and dispatchers at dump-truck companies, and the drivers who work for them. RouteRock is for fleets in all 50 states. It was built inside a working dump-truck company in the Charlotte, NC area.
 
+### How do sub-haulers fit in RouteRock?
+
+Companies manage the truck roster and sub-haulers in the company portal at https://app.routerockhub.com. The portal is available now. Driver settlements and payroll are coming soon. No launch date is listed.
+
 ### What is construction hauling software?
 
 Construction hauling software is the system a dump-truck fleet uses to run dirt, aggregate, and asphalt hauls. A driver leaves with a load ticket. The office needs that ticket and the hours. The company needs to see which truck was on the shift. The category usually runs from dispatch through billing. RouteRock is in early access. The focus today is the ticket photo, driver time, and GPS while the driver is clocked in. Dispatch, invoicing, and the rest of that path are coming soon. No launch date is listed.
