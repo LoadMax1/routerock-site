@@ -50,7 +50,7 @@ Book a demo is the only call to action. A demo is about 15 minutes. It covers th
 
 https://routerockhub.com/support.html
 
-The page shows a Current status note that is updated by hand, with a Last updated date. It is not a live uptime feed. Help is by email at support@routerockhub.com. Support hours are Monday–Friday, 7:00 AM–4:00 PM Eastern Time. A problem report should include the company name, the driver or the truck, what happened, the time it happened, and screenshots if available. Clock events and GPS points queue on the phone and send when a connection is available. Book a demo stays the call to action: https://routerockhub.com/contact.html
+The page shows a Current status note that is updated by hand, with a Last updated date. It is not a live uptime feed. Help is by email at support@routerockhub.com. Support hours are Monday–Friday, 7:00 AM–4:00 PM Eastern Time. We respond within 24 hours. A problem report should include the company name, the driver or the truck, what happened, the time it happened, and screenshots if available. Clock events and GPS points queue on the phone and send when a connection is available. Book a demo stays the call to action: https://routerockhub.com/contact.html
 
 ## Questions and answers
 
@@ -108,7 +108,11 @@ Book a demo. The email goes to demo@routerockhub.com.
 
 ### What are the RouteRock support hours?
 
-Monday–Friday, 7:00 AM–4:00 PM Eastern Time. Email support@routerockhub.com.
+Monday–Friday, 7:00 AM–4:00 PM Eastern Time. We respond within 24 hours. Email support@routerockhub.com.
+
+### What is the RouteRock response time?
+
+We respond within 24 hours.
 
 ### Who is RouteRock for?
 
@@ -187,7 +191,7 @@ A load cycle in dump truck hauling is one trip that moves material. The truck lo
 - https://routerockhub.com/contact.html — Book a demo
 - https://routerockhub.com/privacy.html — Privacy policy, effective October 21, 2026
 - https://routerockhub.com/terms.html — Terms of service, effective October 22, 2026. Subject to review.
-- https://routerockhub.com/support.html — Status and support: hand-updated service status, support hours (Monday–Friday, 7:00 AM–4:00 PM Eastern Time), how to report a problem, and email support@routerockhub.com
+- https://routerockhub.com/support.html — Status and support: hand-updated service status, support hours (Monday–Friday, 7:00 AM–4:00 PM Eastern Time), response time (We respond within 24 hours), how to report a problem, and email support@routerockhub.com
 - https://routerockhub.com/delete-account.html — Delete an account
 - https://routerockhub.com/articles/ — Dump truck hauling guides
 - https://routerockhub.com/articles/how-to-stop-losing-dump-truck-tickets.html — How to stop losing dump truck tickets
