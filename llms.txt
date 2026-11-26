@@ -46,6 +46,12 @@ RouteRock is not an ELD and needs no in-cab hardware. It runs on the drivers' ph
 
 Book a demo is the only call to action. A demo is about 15 minutes. It covers the driver flow and what the company can see today, and it distinguishes available features from items marked Coming soon. The contact page Book a demo button opens an email to demo@routerockhub.com with the subject "RouteRock demo request" and a body template for name, company, email, phone, trucks in fleet, and a message. Nothing is stored on this site. Book a demo to get started on any plan or to request a Fleet quote.
 
+## Status and support
+
+https://routerockhub.com/support.html
+
+The page shows a Current status note that is updated by hand, with a Last updated date. It is not a live uptime feed. Help is by email at support@routerockhub.com. A problem report should include the company name, the driver or the truck, what happened, the time it happened, and screenshots if available. Clock events and GPS points queue on the phone and send when a connection is available. Book a demo stays the call to action: https://routerockhub.com/contact.html
+
 ## Questions and answers
 
 ### What is the best app for tracking dump truck tickets?
@@ -177,7 +183,7 @@ A load cycle in dump truck hauling is one trip that moves material. The truck lo
 - https://routerockhub.com/contact.html — Book a demo
 - https://routerockhub.com/privacy.html — Privacy policy, effective October 21, 2026
 - https://routerockhub.com/terms.html — Terms of service, effective October 22, 2026. Subject to review.
-- https://routerockhub.com/support.html — Support
+- https://routerockhub.com/support.html — Status and support: hand-updated service status, how to report a problem, and email support@routerockhub.com
 - https://routerockhub.com/delete-account.html — Delete an account
 - https://routerockhub.com/articles/ — Dump truck hauling guides
 - https://routerockhub.com/articles/how-to-stop-losing-dump-truck-tickets.html — How to stop losing dump truck tickets
