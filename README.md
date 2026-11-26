@@ -20,7 +20,7 @@ GitHub Pages serves it from the root of the default branch (`main`).
 | `contact.html` | Demo page. About 15 minutes. Book a demo opens a mailto to demo@routerockhub.com with a subject and body template. Nothing is stored on this site |
 | `privacy.html` | Privacy policy for the mobile app. Keep this URL stable. |
 | `terms.html` | Terms of service for the app and site. Subject to review. Effective October 22, 2026. |
-| `support.html` | Status and support. Hand-updated current status, how to report a problem, and a short FAQ. Product questions stay on `faq.html` |
+| `support.html` | Status and support. Hand-updated current status, support hours, how to report a problem, and a short FAQ. Product questions stay on `faq.html` |
 | `delete-account.html` | How to request account and data deletion |
 | `faq.html` | Every FAQ question on the site, grouped, with one FAQPage JSON-LD block |
 | `founding-fleet.html` | Founding fleet offer for Core. Book a demo is the CTA |

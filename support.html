@@ -85,6 +85,14 @@
         },
         {
           "@type": "Question",
+          "name": "What are the support hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monday–Friday, 7:00 AM–4:00 PM Eastern Time."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "How do I check RouteRock service status?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -156,11 +164,11 @@
           STATUS EDIT: this is the only place to change the public status.
           Edit the text in #service-status and the date on #service-status-updated.
           Keep the status to a short line. Do not add an uptime percentage, incident history, or the phrase "all systems operational."
-          OWNER: confirm this wording before the page goes live. "No known issues" is a neutral placeholder, not a verified status check. The date is the day this draft was written.
+          OWNER: confirm this wording before the page goes live. "No known issues" is a neutral placeholder, not a verified status check. The Last updated date is November 25, 2026, Eastern time.
         -->
         <div class="status-panel">
           <p class="status-value" id="service-status">No known issues</p>
-          <p class="status-updated">Last updated <time id="service-status-updated" datetime="2026-11-26">November 26, 2026</time></p>
+          <p class="status-updated">Last updated <time id="service-status-updated" datetime="2026-11-25">November 25, 2026</time></p>
         </div>
       </div>
     </section>
@@ -168,11 +176,9 @@
       <div class="wrap">
         <h2 id="get-help-heading">Get help</h2>
         <p class="intro">Email <a href="mailto:support@routerockhub.com">support@routerockhub.com</a>. If the question is about a driver account, include that account email.</p>
-        <!--
-          SLA PLACEHOLDER: support hours, any channel besides email, and a first-response time are not decided.
-          Put that section here when the owner writes it.
-          Do not publish hours, a phone number, or a response-time promise.
-        -->
+        <!-- Support hours are set. Do not add a response-time promise or a phone number. -->
+        <h2 id="support-hours">Support hours</h2>
+        <p class="intro">Monday–Friday, 7:00 AM–4:00 PM Eastern Time.</p>
         <h2 id="report-heading">How to report a problem</h2>
         <p class="intro">In that email, include:</p>
         <ul class="report-list">
@@ -207,6 +213,12 @@
             <summary>How do I report a problem with RouteRock?</summary>
             <div class="faq-panel">
               <p>Email <a href="mailto:support@routerockhub.com">support@routerockhub.com</a>. Include the company name, the driver or the truck, what happened, the time it happened, and screenshots if you have them.</p>
+            </div>
+          </details>
+          <details id="what-are-the-support-hours">
+            <summary>What are the support hours?</summary>
+            <div class="faq-panel">
+              <p>Monday–Friday, 7:00 AM–4:00 PM Eastern Time.</p>
             </div>
           </details>
           <details id="how-do-i-check-routerock-service-status">
