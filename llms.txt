@@ -12,22 +12,33 @@ RouteRock runs on iPhone and Android during early access. It is not a public App
 - Missing-ticket alerts — Flags a haul that still needs a ticket photo after the threshold.
 - GPS while clocked in — Location runs only during the shift and stops at clock-out.
 - Offline queue for clock and GPS — Clock events and GPS points queue and sync when online. Ticket photos are not queued offline.
-- Company visibility — Owners and dispatchers see clock times, ticket photos, and location from while the driver was on shift.
+- Company visibility — Owners, office admins, and dispatchers see clock times, ticket photos, and location from while the driver was on shift.
 - Company portal — trucks and sub-haulers (web) — Companies manage the truck roster and sub-haulers at https://app.routerockhub.com.
+- Office admin access (web) — Office staff can run the company from the portal. Every role can reset a forgotten password from the portal sign-in.
+- Logged support sessions — When RouteRock support opens a company account to fix something, the session is logged.
+
+## Beta
+
+On for a small group of early-access fleets in the web portal, or still in testing.
+
+- Dispatch board and sub-hauler dispatch — The office assigns jobs and can send a job to a sub-hauler's RouteRock company, which accepts or declines. Nothing is texted or emailed. Arrival times are not included.
+- OCR and ticket review — Ticket OCR, which reads fields from an uploaded ticket photo, is Beta.
+- Invoicing — Customer invoices from approved tickets, with a fuel surcharge stored on each invoice.
+- Driver payroll — Pay periods in the web portal, limited to owners and office admins.
+- Customer totals and tie-out reports — Customer totals, a ticket-to-invoice tie-out, and an hours-to-pay tie-out for owners and office admins.
 
 ## Coming soon
 
 No launch date is listed.
 
-- Dispatch and live map — A live fleet map of clocked-in trucks, a dispatch board to assign jobs and track status, and live dispatch status on active hauls. Arrival times are not included.
-- OCR and ticket review — Ticket OCR auto-reads fields after a ticket photo is uploaded.
-- Geofencing and route history — Site enter and exit near load and dump zones, and route history for past shifts.
-- Invoicing and accounts receivable — Customer invoices from haul and ticket activity, and tracking of what is owed and paid.
-- Payroll and settlements — Driver payroll with pay periods, exceptions, and CSV or QuickBooks-style export.
+- Coming to the app — Automatic yard clock-in with a cancelable clock-out countdown, an offline ticket photo queue, a missed-ticket photo for a finished shift, weekly hours without clocking in, a check-in after 10 hours on the clock, password reset in the app, and a sub-hauler dispatch inbox.
+- Live fleet map — A live map of clocked-in trucks and live status on active hauls. Arrival times are not included.
+- Geofencing and route history — Load counts from load-site and dump-site geofences, site enter and exit, and route history for past shifts.
+- Accounts receivable, settlements, and export — Tracking of what is owed and paid, driver settlements, and QuickBooks-style export.
 - Profit and operations reporting — Fleet profit and operations reports. This is reporting, not an automated insight product.
 - Notification center — In-app operations alerts beyond missing-ticket alerts.
 
-Dump truck dispatch is not available yet. Today the company sees clock times, ticket photos, and location from while the driver was on shift. Ticket photos are not queued offline, and that limit is not listed as a coming-soon item.
+Dump truck dispatch is not available to every fleet yet. Today every company sees clock times, ticket photos, and location from while the driver was on shift. Ticket photos are not queued offline on phones today. An offline ticket photo queue is coming to the app.
 
 ## Pricing
 
@@ -35,7 +46,7 @@ Prices are in US dollars, per registered truck per month. A registered truck is 
 
 - Free — $0. 1 truck and 1 driver. Time clock, ticket photos, ticket history, missing-ticket alerts, offline queue for clock events, company portal. No GPS.
 - Core — $15 per truck per month, or $12 per truck per month billed annually. Everything available now, including GPS while clocked in and the offline queue for clock events and GPS points. Unlimited users. No truck minimum.
-- Pro — $25 per truck per month, or $20 per truck per month billed annually. Adds ticket reading (OCR), a dispatch board, driver settlements and payroll, and QuickBooks-style export. All of these Pro additions are Coming soon with no launch date listed. Pro is not sold until they ship; everything available today is in Core.
+- Pro — $25 per truck per month, or $20 per truck per month billed annually. Pro is Coming soon and not sold yet. It adds ticket reading (OCR: Beta), a dispatch board and driver payroll (in beta with a small group of early-access fleets), plus driver settlements and QuickBooks-style export (coming soon). No launch date is listed. Everything available now is in Core.
 - Fleet — 26 or more trucks, priced by quote.
 - No setup fee. No contract. Unlimited users on paid plans. Annual billing is 20% off.
 - Founding fleet offer — The first 10 fleets on a paid plan get 25% off for 12 months, with that discounted price locked for 24 months. On monthly billing, Core is $11.25 per truck per month. It does not combine with the annual discount. Details: https://routerockhub.com/founding-fleet.html
@@ -44,7 +55,7 @@ RouteRock is not an ELD and needs no in-cab hardware. It runs on the drivers' ph
 
 ## Demo
 
-Book a demo is the only call to action. A demo is about 15 minutes. It covers the driver flow and what the company can see today, and it distinguishes available features from items marked Coming soon. The contact page Book a demo button opens an email to demo@routerockhub.com with the subject "RouteRock demo request" and a body template for name, company, email, phone, trucks in fleet, and a message. Nothing is stored on this site. Book a demo to get started on any plan or to request a Fleet quote.
+Book a demo is the only call to action. A demo is about 15 minutes. It covers the driver flow and what the company can see today, and it distinguishes available features from items marked Beta or Coming soon. The contact page Book a demo button opens an email to demo@routerockhub.com with the subject "RouteRock demo request" and a body template for name, company, email, phone, trucks in fleet, and a message. Nothing is stored on this site. Book a demo to get started on any plan or to request a Fleet quote.
 
 ## Status and support
 
@@ -80,7 +91,7 @@ The driver's company can see clock times, ticket photos, and precise location co
 
 ### Is RouteRock dump truck dispatch software?
 
-Not yet. Dispatch and a live fleet map, ticket OCR, geofencing and route history, invoicing and accounts receivable, payroll and settlements, profit and operations reporting, and a notification center are coming soon. Arrival times are not included. Today the company sees the clock, the ticket photo, and location from while the driver was on shift.
+Not for every fleet yet. A dispatch board with in-app sub-hauler dispatch, invoicing, driver payroll, and tie-out reports are in beta with a small group of early-access fleets, and ticket OCR is Beta. A live fleet map, geofencing and route history, accounts receivable, driver settlements, profit and operations reporting, and a notification center are coming soon. Arrival times are not included. Today the company sees the clock, the ticket photo, and location from while the driver was on shift.
 
 ### Which phones does it support?
 
@@ -92,7 +103,7 @@ RouteRock is priced per registered truck per month. Free covers 1 truck and 1 dr
 
 ### Are the Pro features available today?
 
-Not yet. Ticket reading (OCR), the dispatch board, driver settlements, and QuickBooks-style export are Coming soon, with no launch date listed. Pro is not sold until they ship. Everything available today is in Core.
+Not yet. Pro is Coming soon and is not sold. Ticket reading (OCR) is Beta, and the dispatch board is in beta with a small group of early-access fleets. Driver settlements and QuickBooks-style export are Coming soon. No launch date is listed. Everything available now is included in Core.
 
 ### What is the founding fleet offer?
 
@@ -100,7 +111,7 @@ The first 10 fleets on a paid plan get 25% off for 12 months, with that discount
 
 ### What does early access mean?
 
-RouteRock is in early access (beta) with hauling companies. Features are labeled Available now or Coming soon. Book a demo to get started.
+RouteRock is in early access (beta) with hauling companies. Features are labeled Available now, Beta, or Coming soon. Beta means turned on for a small group of early-access fleets, or still in testing. Book a demo to get started.
 
 ### How do I get started?
 
@@ -120,15 +131,15 @@ Owners and dispatchers at dump-truck companies, and the drivers who work for the
 
 ### How do sub-haulers fit in RouteRock?
 
-Companies manage the truck roster and sub-haulers in the company portal at https://app.routerockhub.com. The portal is available now. Driver settlements and payroll are coming soon. No launch date is listed.
+Companies manage the truck roster and sub-haulers in the company portal at https://app.routerockhub.com. The portal is available now, including office admin access and password reset at sign-in. An owner or office admin can also send a job to a sub-hauler's own RouteRock company, which accepts or declines in its portal. That dispatch step is in beta with a small group of early-access fleets. Driver payroll is in beta, and settlements are coming soon. No launch date is listed.
 
 ### What is construction hauling software?
 
-Construction hauling software is the system a dump-truck fleet uses to run dirt, aggregate, and asphalt hauls. A driver leaves with a load ticket. The office needs that ticket and the hours. The company needs to see which truck was on the shift. The category usually runs from dispatch through billing. RouteRock is in early access. The focus today is the ticket photo, driver time, and GPS while the driver is clocked in. Dispatch, invoicing, and the rest of that path are coming soon. No launch date is listed.
+Construction hauling software is the system a dump-truck fleet uses to run dirt, aggregate, and asphalt hauls. A driver leaves with a load ticket. The office needs that ticket and the hours. The company needs to see which truck was on the shift. The category usually runs from dispatch through billing. RouteRock is in early access. The focus today is the ticket photo, driver time, and GPS while the driver is clocked in. Dispatch, invoicing, and driver payroll are in beta with a small group of early-access fleets, and the rest of that path is coming soon. No launch date is listed.
 
 ### Is RouteRock construction hauling software?
 
-Yes. RouteRock is construction hauling software in early access for dump-truck fleets in all 50 states. Today it covers driver time tracking, digital load tickets, and GPS while the driver is clocked in. It does not yet cover the full path from dispatch through billing.
+Yes. RouteRock is construction hauling software in early access for dump-truck fleets in all 50 states. Today it covers driver time tracking, digital load tickets, and GPS while the driver is clocked in. Dispatch, invoicing, and payroll are in beta with a small group of early-access fleets, so it does not yet cover the full path from dispatch through billing for every fleet.
 
 ### Is RouteRock an ELD or hours-of-service log?
 
@@ -140,15 +151,15 @@ No. Location comes from the driver's phone while the driver is clocked in. GPS r
 
 ### Does RouteRock read scale ticket numbers and tonnage?
 
-Not today. The driver photographs the ticket, or picks one from the gallery. Ticket OCR, which auto-reads fields after a ticket photo is uploaded, is coming soon. No launch date is listed.
+Not today. The driver photographs the ticket, or picks one from the gallery. Ticket OCR, which reads fields from an uploaded ticket photo, is Beta.
 
 ### How can I track dump truck loads with RouteRock?
 
-Submitted ticket photos stay in a list. The company and the driver can open a photo full screen, and missing-ticket alerts flag a haul that still needs a photo. Dispatch and a live map, geofencing and route history, and profit and operations reporting are coming soon. Arrival times are not included. No launch date is listed.
+Submitted ticket photos stay in a list. The company and the driver can open a photo full screen, and missing-ticket alerts flag a haul that still needs a photo. A dispatch board is in beta with a small group of early-access fleets. A live map, geofencing and route history, and profit and operations reporting are coming soon. Arrival times are not included. No launch date is listed.
 
 ### Can RouteRock create invoices or export payroll?
 
-Not yet. Customer invoices from haul and ticket activity, and driver payroll with pay periods, exceptions, and CSV or QuickBooks-style export, are coming soon. No launch date is listed.
+In beta. Customer invoices from approved tickets, with a fuel surcharge stored on each invoice, and driver payroll with pay periods are turned on for a small group of early-access fleets in the web portal. Payroll is limited to owners and office admins. Driver settlements and QuickBooks-style export are coming soon. No launch date is listed.
 
 ### Can drivers upload a ticket from the phone's photo gallery?
 
@@ -160,23 +171,23 @@ Yes. RouteRock is a trucking time clock for dump truck drivers. Drivers clock in
 
 ### What is an electronic dump truck ticket (e-ticket)?
 
-An electronic dump truck ticket (e-ticket) is a digital record of a dump or scale ticket for a haul. In RouteRock today, drivers photograph the paper or scale ticket from the camera, or pick one from the gallery, while on shift. The company sees submitted ticket photos, and missing-ticket alerts flag a haul that still needs a photo. Ticket photos are not queued offline. Ticket OCR, which auto-reads fields after a ticket photo is uploaded, is coming soon. No launch date is listed.
+An electronic dump truck ticket (e-ticket) is a digital record of a dump or scale ticket for a haul. In RouteRock today, drivers photograph the paper or scale ticket from the camera, or pick one from the gallery, while on shift. The company sees submitted ticket photos, and missing-ticket alerts flag a haul that still needs a photo. Ticket photos are not queued offline. Ticket OCR, which reads fields from an uploaded ticket photo, is Beta.
 
 ### What are the biggest challenges dump truck fleets face?
 
-Dump truck fleets often lose paper tickets, chase those slips after the shift, dispute driver hours, and have no record of where a truck was during the shift. RouteRock is in early access. Drivers photograph the ticket, clock times fill in and cannot be edited, missing-ticket alerts flag a haul that still needs a photo, and GPS runs only while the driver is clocked in. Dispatch and invoicing are coming soon. Arrival times are not included. No launch date is listed.
+Dump truck fleets often lose paper tickets, chase those slips after the shift, dispute driver hours, and have no record of where a truck was during the shift. RouteRock is in early access. Drivers photograph the ticket, clock times fill in and cannot be edited, missing-ticket alerts flag a haul that still needs a photo, and GPS runs only while the driver is clocked in. Dispatch and invoicing are in beta with a small group of early-access fleets. Arrival times are not included. No launch date is listed.
 
 ### How does RouteRock work?
 
-The driver clocks in. Clock-in and clock-out times fill in on their own, and drivers cannot edit them. The driver photographs the ticket, or picks one from the gallery, while on shift. GPS runs only while the driver is clocked in and stops at clock-out. Owners and dispatchers see clock times, ticket photos, and location from while the driver was on shift. Clock events and GPS points stay in an offline queue and sync when a connection is available. Ticket photos are not queued offline. The shift order is on haul ticket tracking.
+The driver clocks in. Clock-in and clock-out times fill in on their own, and drivers cannot edit them. The driver photographs the ticket, or picks one from the gallery, while on shift. GPS runs only while the driver is clocked in and stops at clock-out. Owners, office admins, and dispatchers see clock times, ticket photos, and location from while the driver was on shift. Clock events and GPS points stay in an offline queue and sync when a connection is available. Ticket photos are not queued offline. The shift order is on haul ticket tracking.
 
 ### What is geofencing in dump truck hauling?
 
-Geofencing in dump truck hauling is a boundary around a load site or a dump site. When a truck's location enters or leaves that boundary, the haul can be marked as on site or off site. RouteRock does not offer geofencing today. Site enter and exit near load and dump zones is coming soon, along with route history for past shifts. No launch date is listed. GPS while clocked in is available now. Location runs only during the shift and stops at clock-out. Details are on the dump truck ticketing app page.
+Geofencing in dump truck hauling is a boundary around a load site or a dump site. When a truck's location enters or leaves that boundary, the haul can be marked as on site or off site. Geofence load counts, site enter and exit near load and dump zones, and route history for past shifts are coming soon. No launch date is listed. GPS while clocked in is available now. Location runs only during the shift and stops at clock-out. Details are on the dump truck ticketing app page.
 
 ### What is a load cycle in dump truck hauling?
 
-A load cycle in dump truck hauling is one trip that moves material. The truck loads, hauls, dumps, and returns for the next load. The cycle usually produces a ticket the office uses for the haul. In RouteRock today, the driver photographs that ticket, or picks one from the gallery, while on shift. Submitted ticket photos stay in a list, and missing-ticket alerts flag a haul that still needs a photo. Assigning the job for that cycle is part of dispatch, which is coming soon. Arrival times are not included. No launch date is listed.
+A load cycle in dump truck hauling is one trip that moves material. The truck loads, hauls, dumps, and returns for the next load. The cycle usually produces a ticket the office uses for the haul. In RouteRock today, the driver photographs that ticket, or picks one from the gallery, while on shift. Submitted ticket photos stay in a list, and missing-ticket alerts flag a haul that still needs a photo. Assigning the job for that cycle is part of dispatch, which is in beta with a small group of early-access fleets. Arrival times are not included. No launch date is listed.
 
 ## Pages
 

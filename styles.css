@@ -1711,6 +1711,13 @@ html.can-reveal .reveal.is-in {
   color: var(--color-white);
 }
 
+.tag-beta {
+  border-color: #f58220;
+  background: var(--color-white);
+  color: var(--color-navy);
+  font-family: "Montserrat", sans-serif;
+}
+
 .price-tier h3 .tag {
   vertical-align: middle;
 }
